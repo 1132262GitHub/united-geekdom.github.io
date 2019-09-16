@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script>
+function greet() {
+  var greeting;
+  var time = new Date().getHours();
+  if (time < 12) {
+    greeting = "Good morning";
+  } else if (time < 18) {
+    greeting = "Good afternoon";
+  } else {
+    greeting = "Good evening";
+  }
+  document.getElementById("demo").innerHTML = greeting + ", and welcome to this website!";
+}
+</script>
 <link rel="shortcut icon" href="logo.jpg" />
 <title>The geekdom's capital.</title>
 </head>
@@ -25,8 +39,8 @@
 <td><a href="#mailroom">Mail room</a></td>
 </tr>
 </table>
-<font size=5>
-<h2> Welcome the home page of this website!</h2>
+<font size=6 color="purple">
+<h2><p id="demo"></p></h2>
 <a name="The_United_Geekdom_Experience"><h3 align="center">The United Geekdom Experience</h3></a>
 <font size=3 color="white">
 <img src="limericks.jpg" width=500 height=500 alt="This image isn't loading. Not really a loss.">
