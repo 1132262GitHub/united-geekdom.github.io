@@ -1,21 +1,55 @@
 <html>
 <head>
-<link rel="shortcut icon" href="logo.jpg" />
+<link rel="shortcut icon" href="../../../header.jpg" />
 <title>Today's poem</title>
+<style>
+ul.nav {
+  list-style-type: none;
+  margin: 50px 1565px 120px 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: inline-block;
+  color: #222;
+  text-align: center;
+  padding: 28px 32px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: tomato;
+  color: #000;
+}
+
+.inactive {
+  background-color: #777;
+  color: #000;
+}
+.inactive:hover {
+background-color: #777;
+  color: #000;
+}
+img {
+width: 45;
+height: 80;
+}
+img:hover {
+width: 54;
+height: 96;
+}
+</style>
 </head>
-<body>
 <body bgcolor="yellow">
-<font size=5>
-<a href="http://united-geekdom.github.io">Home</a>
-<hr>
-<font size=6 color="red">
-<h2> Poetry </h2>
-<br>
-<p> I am a huge fan of poetry. I write, frankly, terrible poems, and am very glad to be sharing them with my audience here, tiny as said audience may be. A poem will be added everyday.
- This page is for today's poem. For those of you who are confused by the arrows, the double arrow to the left mens the first poem, while the double arrow to the right means the current poem.
-The arrow to the left means the previous poem, the arrow to the right means the next poem.</p>
-<font size=5>
-<h3>Japanese poetry</h3>
+<a href="../../../"><img src="../../../logo.jpg"></a>
+<font size=5 color="red">
+<h3>Today's poem</h3>
 <pre>
 There was a poet from Japan
 Whose limericks hadn't a fan.
@@ -23,13 +57,15 @@ He, when asked why it's so
 Said 'I try, but you know
 When I arrive at the last line, I attempt to fit as many syllables as I possibly can. 
 </pre>
-<br>
-<form action="2019/08/03.html">
-    <input type="submit" value="<<" />
-</form>
-<form action="2019/09/16.html">
-    <input type="submit" value="<" />
-</form>
+<ul class="nav">
+<li class="nav"><a href="03.html"> << </a></li>
+<li class="nav"><a href="2019/09/16.html"> < </a></li>
+<li class="nav"><a class="inactive"> > </a></li>
+<li class="nav"><a class="inactive"> >> </a></li>
+</ul>
 </body>
 </html>
+
+
+
 
