@@ -41,6 +41,7 @@ opacity: 0.85;
 function loadChars() {
 timedText(); 
 timedText2();
+timedText3();
 }
 function timedText() {
   setTimeout(myTimeout1, 500) 
@@ -99,6 +100,69 @@ function myTimeout7() {
 function myTimeout8() {
   document.getElementById("demo2").innerHTML = " \\";
 }
+function timedText3() {
+  setTimeout(myTimeout9, 125) 
+  setTimeout(myTimeout10, 250) 
+  setTimeout(myTimeout11, 375) 
+  setTimeout(myTimeout12, 500)
+  setTimeout(myTimeout13, 625) 
+  setTimeout(myTimeout12, 750) 
+  setTimeout(myTimeout11, 875) 
+  setTimeout(myTimeout10, 1000)
+  setTimeout(myTimeout9, 1125) 
+  setTimeout(myTimeout10, 1250) 
+  setTimeout(myTimeout11, 1375) 
+  setTimeout(myTimeout12, 1500)
+  setTimeout(myTimeout13, 1625) 
+  setTimeout(myTimeout12, 1750) 
+  setTimeout(myTimeout11, 1875) 
+  setTimeout(myTimeout10, 2000)
+}
+function myTimeout9() {
+var a= "&nbsp;&nbsp;&nbsp;0"
+var b= "&nbsp;&nbsp;" + "/|\\"
+var c= "&nbsp;/ | \\o"
+var d= "&nbsp;&nbsp;/ \\"
+var e= "&nbsp;&nbsp;| |"
+var f= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e
+  document.getElementById("demo3").innerHTML = f;
+}
+function myTimeout10() {
+var a= "&nbsp;&nbsp;&nbsp;0"
+var b= "&nbsp;&nbsp;" + "/|\\"
+var c= "&nbsp;/ | \\"
+var d= "&nbsp;&nbsp;/ \\o"
+var e= "&nbsp;&nbsp;| |"
+var f= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e
+  document.getElementById("demo3").innerHTML = f;
+}
+function myTimeout11() {
+var a= "&nbsp;&nbsp;&nbsp;0"
+var b= "&nbsp;&nbsp;" + "/|\\"
+var c= "&nbsp;/ | \\"
+var d= "&nbsp;&nbsp;/ \\"
+var e= "&nbsp;&nbsp;|<u>o</u>|"
+var f= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e
+  document.getElementById("demo3").innerHTML = f;
+}
+function myTimeout12() {
+var a= "&nbsp;&nbsp;&nbsp;0"
+var b= "&nbsp;&nbsp;" + "/|\\"
+var c= "&nbsp;/ | \\"
+var d= "&nbsp;o/ \\"
+var e= "&nbsp;&nbsp;| |"
+var f= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e
+  document.getElementById("demo3").innerHTML = f;
+}
+function myTimeout13() {
+var a= "&nbsp;&nbsp;&nbsp;0"
+var b= "&nbsp;&nbsp;" + "/|\\"
+var c= "o/ | \\"
+var d= "&nbsp;&nbsp;/ \\"
+var e= "&nbsp;&nbsp;| |"
+var f= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e
+  document.getElementById("demo3").innerHTML = f;
+}
 </script>
 </head>
 <body bgcolor="tomato" onload="setInterval(loadChars, 2000)">
@@ -120,6 +184,10 @@ These animations are made with JavaScript
 <div>
 <h3>Weird Dancing Stickman</h3>
 <p id="demo">Loading...</p>
+</div>
+<div>
+<h3>Basketball player</h3>
+<p id="demo3">Loading...</p>
 </div>
 </b>
 </font>
