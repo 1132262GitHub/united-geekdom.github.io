@@ -42,6 +42,7 @@ function loadChars() {
 timedText(); 
 timedText2();
 timedText3();
+timedText4();
 }
 function timedText() {
   setTimeout(myTimeout1, 500) 
@@ -163,6 +164,69 @@ var e= "&nbsp;&nbsp;| |"
 var f= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e
   document.getElementById("demo3").innerHTML = f;
 }
+function timedText4() {
+  setTimeout(myTimeout14, 100) 
+  setTimeout(myTimeout15, 200) 
+  setTimeout(myTimeout16, 300) 
+  setTimeout(myTimeout17, 400)
+  setTimeout(myTimeout18, 500) 
+  setTimeout(myTimeout19, 600)
+  setTimeout(myTimeout14, 700) 
+  setTimeout(myTimeout15, 800) 
+  setTimeout(myTimeout16, 900) 
+  setTimeout(myTimeout17, 1000)
+  setTimeout(myTimeout18, 1100) 
+  setTimeout(myTimeout19, 1200)
+  setTimeout(myTimeout14, 1300) 
+  setTimeout(myTimeout15, 1400) 
+  setTimeout(myTimeout16, 1500) 
+  setTimeout(myTimeout17, 1600)
+  setTimeout(myTimeout18, 1700) 
+  setTimeout(myTimeout19, 1800)
+  setTimeout(myTimeout19, 2000)  
+}
+function myTimeout14() {
+var a = "&nbsp&nbsp0/";
+var b = "#=|";
+var c = "&nbsp/ \\";
+var d = a + "<BR>" + b + "<BR>" + c;
+document.getElementById("demo4").innerHTML = d;
+}
+function myTimeout15() {
+var a = "&nbsp&nbsp0_";
+var b = "#=|";
+var c = "&nbsp/ \\";
+var d = a + "<BR>" + b + "<BR>" + c;
+document.getElementById("demo4").innerHTML = d;
+}
+function myTimeout16() {
+var a = "&nbsp&nbsp0";
+var b = "#=|\\";
+var c = "&nbsp/ \\";
+var d = a + "<BR>" + b + "<BR>" + c;
+document.getElementById("demo4").innerHTML = d;
+}
+function myTimeout17() {
+var a = "&nbsp&nbsp0";
+var b = "#/|";
+var c = "&nbsp/ \\";
+var d = a + "<BR>" + b + "<BR>" + c;
+document.getElementById("demo4").innerHTML = d;
+}
+function myTimeout18() {
+var a = "&nbsp_0";
+var b = "#=|";
+var c = "&nbsp/ \\";
+var d = a + "<BR>" + b + "<BR>" + c;
+document.getElementById("demo4").innerHTML = d;
+}
+function myTimeout19() {
+var a = "&nbsp\\0";
+var b = "#=|";
+var c = "&nbsp/ \\";
+var d = a + "<BR>" + b + "<BR>" + c;
+document.getElementById("demo4").innerHTML = d;
+}
 </script>
 </head>
 <body bgcolor="tomato" onload="setInterval(loadChars, 2000)">
@@ -182,12 +246,16 @@ These animations are made with JavaScript
 <p id="demo2">Loading...</p>
 </div>
 <div>
-<h3>Weird Dancing Stickman</h3>
+<h3>Jumping Jacks</h3>
 <p id="demo">Loading...</p>
 </div>
 <div>
 <h3>Basketball player</h3>
 <p id="demo3">Loading...</p>
+</div>
+<div>
+<h3>Pete Townshend</h3>
+<p id="demo4">Loading...</p>
 </div>
 </b>
 </font>
