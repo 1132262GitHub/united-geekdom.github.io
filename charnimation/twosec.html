@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CHARnimation</title>
-<link rel="shortcut icon" href="header.jpg">
 <style>
 div {
 border: none;
@@ -43,6 +41,7 @@ timedText();
 timedText2();
 timedText3();
 timedText4();
+timedText5();
 }
 function timedText() {
   setTimeout(myTimeout1, 500) 
@@ -186,58 +185,106 @@ function timedText4() {
   setTimeout(myTimeout19, 2000)  
 }
 function myTimeout14() {
-var a = "&nbsp&nbsp&nbsp0/";
+var a = "&nbsp&nbsp&nbspO/";
 var b = "#==|";
 var c = "&nbsp&nbsp/ \\";
 var d = a + "<BR>" + b + "<BR>" + c;
 document.getElementById("demo4").innerHTML = d;
 }
 function myTimeout15() {
-var a = "&nbsp&nbsp&nbsp0_";
+var a = "&nbsp&nbsp&nbspO_";
 var b = "#==|";
 var c = "&nbsp&nbsp/ \\";
 var d = a + "<BR>" + b + "<BR>" + c;
 document.getElementById("demo4").innerHTML = d;
 }
 function myTimeout16() {
-var a = "&nbsp&nbsp&nbsp0";
+var a = "&nbsp&nbsp&nbspO";
 var b = "#==|\\";
 var c = "&nbsp&nbsp/ \\";
 var d = a + "<BR>" + b + "<BR>" + c;
 document.getElementById("demo4").innerHTML = d;
 }
 function myTimeout17() {
-var a = "&nbsp&nbsp&nbsp0";
+var a = "&nbsp&nbsp&nbspO";
 var b = "#=/|";
 var c = "&nbsp&nbsp/ \\";
 var d = a + "<BR>" + b + "<BR>" + c;
 document.getElementById("demo4").innerHTML = d;
 }
 function myTimeout18() {
-var a = "&nbsp&nbsp_0";
+var a = "&nbsp&nbsp_O";
 var b = "#==|";
 var c = "&nbsp&nbsp/ \\";
 var d = a + "<BR>" + b + "<BR>" + c;
 document.getElementById("demo4").innerHTML = d;
 }
 function myTimeout19() {
-var a = "&nbsp&nbsp\\0";
+var a = "&nbsp&nbsp\\O";
 var b = "#==|";
 var c = "&nbsp&nbsp/ \\";
 var d = a + "<BR>" + b + "<BR>" + c;
 document.getElementById("demo4").innerHTML = d;
 }
+function timedText5() {
+  setTimeout(myTimeout20, 125) 
+  setTimeout(myTimeout21, 250) 
+  setTimeout(myTimeout22, 375) 
+  setTimeout(myTimeout23, 500)
+  setTimeout(myTimeout24, 625) 
+  setTimeout(myTimeout23, 750)
+  setTimeout(myTimeout22, 875) 
+  setTimeout(myTimeout21, 1000) 
+  setTimeout(myTimeout20, 1125) 
+  setTimeout(myTimeout21, 1250) 
+  setTimeout(myTimeout22, 1375) 
+  setTimeout(myTimeout23, 1500)
+  setTimeout(myTimeout24, 1625) 
+  setTimeout(myTimeout23, 1750)
+  setTimeout(myTimeout22, 1875) 
+  setTimeout(myTimeout21, 2000) 
+}
+function myTimeout20() {
+var a = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"+"o|";
+var b = "|___<u>|</u>___";
+var c = a + "<BR>" + b;
+document.getElementById("demo5").innerHTML = c;
+}
+function myTimeout21() {
+var a = "&nbsp&nbsp&nbsp&nbsp&nbsp";
+var b = "|___<u>|</u>_<u>o</u>_|";
+var c = a + "<BR>" + b;
+document.getElementById("demo5").innerHTML = c;
+}
+function myTimeout22() {
+var a = "&nbsp&nbsp&nbsp&nbsp"+"o";
+var b = "|___<u>|</u>___|";
+var c = a + "<BR>" + b;
+document.getElementById("demo5").innerHTML = c;
+}
+function myTimeout23() {
+var a = "&nbsp&nbsp&nbsp&nbsp&nbsp";
+var b = "|_<u>o</u>_<u>|</u>___|";
+var c = a + "<BR>" + b;
+document.getElementById("demo5").innerHTML = c;
+}
+function myTimeout24() {
+var a = "|o"+"&nbsp&nbsp&nbsp&nbsp";
+var b = "&nbsp___<u>|</u>___|";
+var c = a + "<BR>" + b;
+document.getElementById("demo5").innerHTML = c;
+}
 </script>
 </head>
 <body bgcolor="tomato" onload="setInterval(loadChars, 2000)">
 <font face="Times New Roman">
-<a href="games/../"><img src="logo.jpg"></a>
+<a href="../"><img src="../logo.jpg"></a>
 <marquee>
 <h1>CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
 </marquee>
 <div class="head">
 CHARnimation is a project of mine to make animations from ASCII Characters. Starting out, these animations are basic, but I'm hoping to be able to make more elaborate ones using special characters.
-These animations are made with JavaScript
+These animations are made with JavaScript. They may take some time to load.
 </div>
 <font face="Courier">
 <b>
@@ -256,6 +303,10 @@ These animations are made with JavaScript
 <div>
 <h3>Pete Townshend</h3>
 <p id="demo4">Loading...</p>
+</div>
+<div>
+<h3>Table Tennis/Ping Pong</h3>
+<p id="demo5">Loading...</p>
 </div>
 </b>
 </font>
