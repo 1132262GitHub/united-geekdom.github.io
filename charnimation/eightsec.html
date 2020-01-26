@@ -14,14 +14,13 @@ background-color: orange;
 margin: 10 auto;
 padding: 25px;
 text-align: center;
-color: purple;
 }
-h3 {
+h3.head {
 color: red;
 }
 
-h1 {
-color: purple;
+p.center {
+text-align: center;
 }
 
 img {
@@ -40,16 +39,16 @@ function loadChars() {
 timedText(); 
 }
 function timedText() {
-  setTimeout(myTimeout1, 500) 
-  setTimeout(myTimeout2, 1000) 
-  setTimeout(myTimeout3, 1500) 
-  setTimeout(myTimeout4, 2000)
-  setTimeout(myTimeout5, 2500) 
-  setTimeout(myTimeout6, 3000) 
-  setTimeout(myTimeout7, 3500) 
-  setTimeout(myTimeout8, 4000)
-  setTimeout(myTimeout9, 4500) 
-  setTimeout(myTimeout10, 5000)
+  setTimeout(myTimeout1, 800) 
+  setTimeout(myTimeout2, 1600) 
+  setTimeout(myTimeout3, 2400) 
+  setTimeout(myTimeout4, 3200)
+  setTimeout(myTimeout5, 4000) 
+  setTimeout(myTimeout6, 4800) 
+  setTimeout(myTimeout7, 5600) 
+  setTimeout(myTimeout8, 6400)
+  setTimeout(myTimeout9, 7200) 
+  setTimeout(myTimeout10, 8000)
 }
 function myTimeout1() {
 var a= "<font size=2></font>"
@@ -66,7 +65,7 @@ var a= "<font size=2></font>"
 var b= "<font size=3></font>"
 var c= "<font size=4></font>"
 var d= "<font size=5></font>"
-var e= "<font size=6><h1>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h1></font>"
+var e= "<font size=6><h3>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h3></font>"
 var f= a + "<BR>" + b + "<BR>" + c + "<BR>" + d + "<BR>" + e + "<BR>"
   document.getElementById("demo").innerHTML = f;
 }
@@ -74,7 +73,7 @@ function myTimeout3() {
 var a= "<font size=2></font>"
 var b= "<font size=3></font>"
 var c= "<font size=4></font>"
-var d= "<font size=5><h1>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h1></font>"
+var d= "<font size=5><h3>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h3></font>"
 var e= "<font size=6>Having seen the new Star Wars, I just had to CHARnimate the</font>"
 var f= a + "<BR>" + b + "<BR>" + c + "<BR>" + d + "<BR>" + e + "<BR>"
   document.getElementById("demo").innerHTML = f;
@@ -83,7 +82,7 @@ var f= a + "<BR>" + b + "<BR>" + c + "<BR>" + d + "<BR>" + e + "<BR>"
 function myTimeout4() {
 var a= "<font size=2></font>"
 var b= "<font size=3></font>"
-var c= "<font size=4><h1>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h1></font>"
+var c= "<font size=4><h3>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h3></font>"
 var d= "<font size=5>Having seen the new Star Wars, I just had to CHARnimate the</font>"
 var e= "<font size=6>intro. While I may not be able to create the scroll effect,</font>"
 var f= a + "<BR>" + b + "<BR>" + c + "<BR>" + d + "<BR>" + e + "<BR>"
@@ -92,7 +91,7 @@ var f= a + "<BR>" + b + "<BR>" + c + "<BR>" + d + "<BR>" + e + "<BR>"
 
 function myTimeout5() {
 var a= "<font size=2></font>"
-var b= "<font size=3><h1>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h1></font>"
+var b= "<font size=3><h3>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h3></font>"
 var c= "<font size=4>Having seen the new Star Wars, I just had to CHARnimate the</font>"
 var d= "<font size=5>intro. While I may not be able to create the scroll effect,</font>"
 var e= "<font size=6>I can make the text fade into the distance using font size.</font>"
@@ -101,7 +100,7 @@ var f= a + "<BR>" + b + "<BR>" + c + "<BR>" + d + "<BR>" + e + "<BR>"
 }
 
 function myTimeout6() {
-var a= "<font size=2><h1>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h1></font>"
+var a= "<font size=2><h3>CHARnimation Number V: The Geekdom Strikes Back! (at what?)<h3></font>"
 var b= "<font size=3>Having seen the new Star Wars, I just had to CHARnimate the</font>"
 var c= "<font size=4>intro. While I may not be able to create the scroll effect,</font>"
 var d= "<font size=5>I can make the text fade into the distance using font size.</font>"
@@ -149,13 +148,14 @@ var e= "<font size=6></font>"
 var f= a + "<BR>" + b + "<BR>" + c + "<BR>" + d + "<BR>" + e + "<BR>"
   document.getElementById("demo").innerHTML = f;
 }
+</script>
 </head>
-<body bgcolor="tomato" onload="setInterval(loadChars, 5000)">
+<body bgcolor="tomato" onload="setInterval(loadChars, 8000)">
 <font face="Courier">
 <b>
 <div>
-<h3>Star Wars style intro</h3>
-<p id="demo">Loading...</p>
+<h3 class="head">Star Wars style intro</h3>
+<p id="demo" class="center">Loading... (May take some time.)</p>
 </div>
 </b>
 </font>
