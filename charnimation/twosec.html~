@@ -17,27 +17,27 @@ These animations are made with JavaScript. They may take some time to load. Plea
 <font face="Courier">
 <b>
 <div>
-<h3 class="head">Standard ASCII loading symbol</h3>
+<h3>Standard ASCII loading symbol</h3>
 <p id="demo2">Loading...</p>
 </div>
 <div>
-<h3 class="head">Jumping Jacks</h3>
+<h3>Jumping Jacks</h3>
 <p id="demo">Loading...</p>
 </div>
 <div>
-<h3 class="head">Basketball player</h3>
+<h3>Basketball player</h3>
 <p id="demo3">Loading...</p>
 </div>
 <div>
-<h3 class="head">Pete Townshend</h3>
+<h3>Pete Townshend</h3>
 <p id="demo4">Loading...</p>
 </div>
 <div>
-<h3 class="head">Table Tennis/Ping Pong</h3>
+<h3>Table Tennis/Ping Pong</h3>
 <p id="demo5">Loading...</p>
 </div>
 <div>
-<h3 class="head">Dab</h3>
+<h3>Dab</h3>
 <p id="demo6">Loading...</p>
 </div>
 </b>

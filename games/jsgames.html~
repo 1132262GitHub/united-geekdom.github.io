@@ -1,0 +1,112 @@
+<html>
+<head>
+<link rel="stylesheet" href="../games/style.css" />
+<style>
+.button {
+border:none;
+padding: none;
+  display: inline-block;
+}
+
+.left {
+float: left;
+}
+
+.right {
+float: right;
+}
+</style>
+<script>
+function rock() {
+var set = Math.floor(Math.random() * 9);
+var choice;
+var choiceAlt;
+var rock = "rock.jpg";
+var paper = "paper.jpg";
+var scissors = "scissors.jpg";
+if (set < 3) {
+choice = rock;
+choiceAlt = "rock";
+document.getElementById("score").innerHTML = "Draw";
+} else if (set < 6) {
+choice = paper;
+choiceAlt = "paper";
+document.getElementById("score").innerHTML = "You lose";
+} else {
+choice = scissors;
+choiceAlt = "scissors";
+document.getElementById("score").innerHTML = "You win";
+}
+document.getElementById("myChoice").src = choice;
+document.getElementById("myChoice").alt = choiceAlt;
+}
+function paper() {
+var set = Math.floor(Math.random() * 9);
+var choice;
+var choiceAlt;
+var rock = "rock.jpg";
+var paper = "paper.jpg";
+var scissors = "scissors.jpg";
+if (set < 3) {
+choice = rock;
+choiceAlt = "rock";
+document.getElementById("score").innerHTML = "You win";
+} else if (set < 6) {
+choice = paper;
+choiceAlt = "paper";
+document.getElementById("score").innerHTML = "Draw";
+} else {
+choice = scissors;
+choiceAlt = "scissors";
+document.getElementById("score").innerHTML = "You lose";
+}
+document.getElementById("myChoice").src = choice;
+document.getElementById("myChoice").alt = choiceAlt;
+}
+function scissors() {
+var set = Math.floor(Math.random() * 9);
+var choice;
+var choiceAlt;
+var rock = "rock.jpg";
+var paper = "paper.jpg";
+var scissors = "scissors.jpg";
+if (set < 3) {
+choice = rock;
+choiceAlt = "rock";
+document.getElementById("score").innerHTML = "You lose";
+} else if (set < 6) {
+choice = paper;
+choiceAlt = "paper";
+document.getElementById("score").innerHTML = "You win";
+} else {
+choice = scissors;
+choiceAlt = "scissors";
+document.getElementById("score").innerHTML = "Draw";
+}
+document.getElementById("myChoice").src = choice;
+document.getElementById("myChoice").alt = choiceAlt;
+}
+</script>
+</head>
+<body bgcolor="black">
+<font color="white" face="courier">
+<a href="../">Home</a>
+<hr>
+<a href="../games">Games home</a> | <a href="reflexes.html">How sharp are your reflexes?</a> | <a href="casino.html">United Geekdom Casino</a> | JavaScript Games
+<hr>
+<font size=4 face="courier">
+<h2 align="center">JavaScript</h2>
+This is my foray into the world of JavaScript games. Please enjoy (or try to.)
+<hr color="red">
+<h3>Rock Paper Scissors</h3>
+<p>Press the buttons on the left to choose rock, paper or scissors.</p>
+
+<p class="left">
+<button class="button" onclick="rock()"><img src="rock.jpg" height=80 width=45></button><br>
+<button class="button" onclick="paper()"><img src="paper.jpg" height=80 width=45></button><br>
+<button class="button" onclick="scissors()"><img src="scissors.jpg" height=80 width=45></button><br>
+</p>
+<p class="right"><img id="myChoice" height=160 width=90> </p>
+<br><br><br><br><br><center><h3><p id="score"></p></h3></center>
+</font>
+</body>

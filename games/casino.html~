@@ -21,7 +21,7 @@ press s to make it start spinning, and then r for red, b for blue, g for green, 
 <hr color="red">
 <h3>Slot machine</h3>
 Press space bar to start the slot machine. You get 500 coins to start with. Playing costs 50 coins.
- If there is a match between two sprites, you get 50 coins, and if there is a jackpot (all three match), you get 500 coins.
+ If there is a match between two sprites, you get 50 coins, and if there is a jackpot (all three match), you get 500 coins. <sup>1</sup>/<sub>2</sub>
 <br>
 <iframe src="https://scratch.mit.edu/projects/349064255/embed" allowtransparency="true" width="600" height="450" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </font>
