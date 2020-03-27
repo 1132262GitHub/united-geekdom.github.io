@@ -5,6 +5,7 @@ timedText3();
 timedText4();
 timedText5();
 timedText6();
+timedText7();
 }
 function timedText() {
   setTimeout(myTimeout1, 500) 
@@ -272,4 +273,94 @@ var e= "&nbsp;&nbsp;/ \\"
 var f= "&nbsp;&nbsp;| |"
 var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
   document.getElementById("demo6").innerHTML = g;
+}
+function timedText7() {
+  setTimeout(myTimeout28, 250) 
+  setTimeout(myTimeout29, 500) 
+  setTimeout(myTimeout30, 750) 
+  setTimeout(myTimeout31, 1000)
+  setTimeout(myTimeout32, 1250) 
+  setTimeout(myTimeout33, 1500) 
+  setTimeout(myTimeout34, 1750) 
+  setTimeout(myTimeout35, 2000)
+}
+function myTimeout28() {
+var a= "&nbsp;"
+var b= "&nbsp;&nbsp;&nbsp;O"
+var c= "&nbsp;&nbsp;|||"
+var d= "&nbsp;&nbsp;|||"
+var e= "&nbsp;&nbsp;&nbsp;|"
+var f= "&nbsp;&nbsp;&nbsp;|"
+var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
+  document.getElementById("demo7").innerHTML = g;
+}
+function myTimeout29() {
+var a= "&nbsp;"
+var b= "&nbsp;&nbsp;&nbsp;O"
+var c= "&nbsp;&nbsp;/|\\"
+var d= "&nbsp;/ |_\\"
+var e= "&nbsp;&nbsp;&nbsp;||"
+var f= "&nbsp;&nbsp;&nbsp;|"
+var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
+  document.getElementById("demo7").innerHTML = g;
+}
+function myTimeout30() {
+var a= "&nbsp;"
+var b= "&nbsp;&nbsp;&nbsp;O"
+var c= "&nbsp;&nbsp;/|\\"
+var d= "&nbsp;/ | \\"
+var e= "&nbsp;&nbsp;&nbsp;|\\"
+var f= "&nbsp;&nbsp;&nbsp;||"
+var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
+  document.getElementById("demo7").innerHTML = g;
+}
+function myTimeout31() {
+var a= "&nbsp;"
+var b= "&nbsp;&nbsp;&nbsp;O"
+var c= "&nbsp;&nbsp;|||"
+var d= "&nbsp;&nbsp;|||"
+var e= "&nbsp;&nbsp;&nbsp;/\\"
+var f= "&nbsp;&nbsp;/ &nbsp;\\"
+var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
+  document.getElementById("demo7").innerHTML = g;
+}
+function myTimeout32() {
+var a= "&nbsp;&nbsp;"
+var b= "&nbsp;&nbsp;&nbsp;&nbsp;O"
+var c= "&nbsp;&nbsp;&nbsp;|||"
+var d= "&nbsp;&nbsp;&nbsp;|||"
+var e= "&nbsp;&nbsp;&nbsp;&nbsp;|"
+var f= "&nbsp;&nbsp;&nbsp;&nbsp;|"
+var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
+  document.getElementById("demo7").innerHTML = g;
+}
+function myTimeout33() {
+var a= "&nbsp;&nbsp;"
+var b= "&nbsp;&nbsp;&nbsp;&nbsp;O"
+var c= "&nbsp;&nbsp;&nbsp;/|\\"
+var d= "&nbsp;&nbsp;/_| \\"
+var e= "&nbsp;&nbsp;&nbsp;||"
+var f= "&nbsp;&nbsp;&nbsp;&nbsp;|"
+var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
+  document.getElementById("demo7").innerHTML = g;
+}
+function myTimeout34() {
+var a= "&nbsp;&nbsp;"
+var b= "&nbsp;&nbsp;&nbsp;&nbsp;O"
+var c= "&nbsp;&nbsp;&nbsp;/|\\"
+var d= "&nbsp;&nbsp;/ | \\"
+var e= "&nbsp;&nbsp;&nbsp;/|"
+var f= "&nbsp;&nbsp;&nbsp;||"
+var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
+  document.getElementById("demo7").innerHTML = g;
+}
+function myTimeout35() {
+var a= "&nbsp;"
+var b= "&nbsp;&nbsp;&nbsp;&nbsp;O"
+var c= "&nbsp;&nbsp;&nbsp;|||"
+var d= "&nbsp;&nbsp;&nbsp;|||"
+var e= "&nbsp;&nbsp;&nbsp;/\\"
+var f= "&nbsp;&nbsp;/ &nbsp;\\"
+var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
+  document.getElementById("demo7").innerHTML = g;
 }

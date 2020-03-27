@@ -110,4 +110,4 @@ var d= "<font size=5></font>"
 var e= "<font size=6></font>"
 var f= a + "<BR>" + b + "<BR>" + c + "<BR>" + d + "<BR>" + e + "<BR>"
   document.getElementById("demo").innerHTML = f;
-}         	                                                                                            
+}
