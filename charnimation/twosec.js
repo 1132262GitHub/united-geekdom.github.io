@@ -320,7 +320,7 @@ var b= "&nbsp;&nbsp;&nbsp;O"
 var c= "&nbsp;&nbsp;|||"
 var d= "&nbsp;&nbsp;|||"
 var e= "&nbsp;&nbsp;&nbsp;/\\"
-var f= "&nbsp; &nbsp;/ &nbsp;\\"
+var f= "&nbsp; / &nbsp;\\"
 var g= a + "<br>" + b + "<BR>" + c + "<BR>" + d  + "<BR>" + e + "<BR>" + f;
   document.getElementById("demo7").innerHTML = g;
 }
