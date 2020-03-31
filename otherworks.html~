@@ -4,12 +4,11 @@
 img {
 height: 80px;
 width: 45px;
+opacity: 1;
 }
 
 img:hover {
-height: 96px;
-width: 54px;
-}
+opacity: 0.8;
 
 body {
 background-color: dodgerblue;
@@ -46,13 +45,15 @@ color: lightblue;
 <link rel="shortcut icon" href="header.jpg" />
 <title>Other Works</title>
 </head>
-<body>
+<body bgcolor="blue">
 <a href="poems/../"><img src="logo.jpg"></a>
 <h2>Other Works</h2>
 <div>
-<ul>
+<ul type="triangle">
 <li><a href="https://pencilpublishers.github.io">Pencil Publishers</a></li>
 <li><a href="https://scratch.mit.edu/users/knitt/">Scratch projects</a></li>
+<li><a href="https://randomsite.github.io">Randomsite</a></li>
+<li><a href="https://github.com/united-geekdom" >My github page</a></li>
 </ul>
 </div>
 </body>
