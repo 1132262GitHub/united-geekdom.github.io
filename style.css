@@ -48,7 +48,7 @@ li a:hover {
 
 .right {
 float: right;
-margin-top: 100px;
+margin-top: 5%;
 
 }
 
@@ -58,6 +58,7 @@ margin-top: 100px;
   float: left;
   background-color: tomato;
   padding: 20px;
+  width: 30%;
 }
 
 .update {
@@ -81,10 +82,10 @@ margin-top: 100px;
 }
 
 .about {
-  margin-top: 100px;
-  width: 200px;
+  margin-top: 15%;
+  margin-left: 40%;
+  width: 30%;
   border: 2px ridge tomato;
-  float: right;
   background-color: tomato;
   padding: 50px;
 }
