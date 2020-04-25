@@ -234,9 +234,9 @@ tr:nth-child(even) {background-color: #ffffff;}
 <li class="nav"><a class="active">Blog</a></li>
 </ul>
 <br>
-United Geekdom blo <img src="logo.jpg" height="100" width="62" alt="g">
+United Geekdom blo<img src="logo.jpg" height="100" width="62" alt="g">
 </div>
-United Geekdom blo <img src="logo.jpg" height="60" width="40" alt="g"></div>
+United Geekdom blo<img src="logo.jpg" height="60" width="40" alt="g"></div>
 <a name="25"></a><br><br><br><br><br>
 <div class="blog" style="margin-top: 12.5%">
 <h2>25<sup>th</sup> April 2020</h2>
