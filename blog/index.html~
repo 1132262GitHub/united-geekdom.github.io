@@ -90,7 +90,7 @@ margin-left: 0.5%;
 float: left;
 position: fixed;
 width: 15%;
-padding: 17% 0.5%;
+padding: 30% 0.5%;
 height: 100%;
 top: 0;
 }
@@ -238,7 +238,7 @@ United Geekdom blo<img src="logo.jpg" height="100" width="62" alt="g">
 </div>
 United Geekdom blo<img src="logo.jpg" height="70" width="41" alt="g"></div>
 <a name="25"></a><br><br><br><br><br>
-<div class="blog" style="margin-top: 12.5%">
+<div class="blog" style="margin-top: 16%">
 <h2>25<sup>th</sup> April 2020</h2>
 This is my first blog post. Spent a good part of the day designing the blog. This blog is basically an update indicator for the website, as well as a journal for all my web affairs.
 I will not be including anything personal in this.<br>
