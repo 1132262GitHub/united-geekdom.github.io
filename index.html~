@@ -1,109 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-ul.nav {
-  list-style-type: none;
-  margin: 0 0 0 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: yellow;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  left: 0;
-}
-
-li.nav {
-  float: left;
-}
-
-li.nav a {
-  display: inline-block;
-  color: #987;
-  text-align: center;
-  padding: 28px 32px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #FFFFCC;
-  color: #987;
-}
-
-.active {
-  background-color: tomato;
-}
-
-.active:hover{
-  background-color: orange;
-  }
-
-.right {
-float: right;
-margin-top: 100px;
-
-}
-
-.left {
-  margin-top: 100px;
-  border: 2px ridge tomato;
-  float: left;
-  background-color: tomato;
-  padding: 20px;
-}
-
-.update {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  width: 750px;
-  border: 2px ridge tomato;
-  float: right;
-  background-color: tomato;
-  padding: 50px;
-}
-
-.noticeboard {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  width: 1000px;
-  border: 2px ridge tomato;
-  float: right;
-  background-color: tomato;
-  padding: 50px;
-}
-
-.about {
-  margin-top: 100px;
-  width: 200px;
-  border: 2px ridge tomato;
-  float: right;
-  background-color: tomato;
-  padding: 50px;
-}
-h2 {
-align: center;
-color: purple;
-}
-
-a.body {
-color: darkblue;
-background-color: tomato;
-text-decoration: none;
-}
-
-a.body:hover {
-background-color: purple;
-color: tomato;
-text-decoration: none;
-}
-
-p {
-color: purple;
-background-color: tomato;
-font-size: 25px;
-}
-</style>
+<link rel="stylesheet" href="style.css" />
 <link rel="shortcut icon" href="header.jpg">
 <title>The geekdom's capital</title>
 </head>
@@ -115,7 +13,8 @@ font-size: 25px;
   <li class="nav"><a href="2020calendar-Jan.html">2020 calendar</a></li>
   <li class="nav"><a href="games/">Games</a></li>
   <li class="nav"><a href="charnimation/">CHARnimation</a></li>
-<li class="nav"><a href="otherworks.html">Other Works</a></li>
+  <li class="nav"><a href="otherworks.html">Other Works</a></li>
+<li class="nav"><a href="blog/">Blog</a></li>
 </ul>
 <div class="right">
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeWwFXU-DDQgWNWv2Sj_ZHAQYqf8kZQghDkhe2seeigioyq8Q/viewform?embedded=true" width="450" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
