@@ -1,4 +1,4 @@
-<html>
+
 <head>
 <title>CSS creator</title>
 <script>
@@ -37,4 +37,3 @@ padding: 10px;
 <p id="console"></p>
 </div>
 </body>
-</html>

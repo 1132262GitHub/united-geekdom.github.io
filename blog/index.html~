@@ -1,0 +1,269 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+
+
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("disappear").style.display = "none";
+        document.getElementById("hr").style.display = "none";
+  } else {
+    document.getElementById("disappear").style.display = "block";
+            document.getElementById("hr").style.display = "block";
+  }
+}
+</script>
+<style>
+html{
+  scroll-behavior: smooth;
+}
+body { 
+  margin: 0;
+  background-color: #f6f6f6;
+font-family: 'Staatliches', cursive;
+
+}
+
+.blog a {
+color: black;
+text-decoration: none;
+  transition-duration: 0.35s;
+}
+
+.blog a:hover {
+color: #999999;
+
+}
+
+#header {
+  background-color: #f1f1f1;
+  padding: 50px 10px;
+  color: black;
+  text-align: center;
+  font-size: 45px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s;
+  height: auto;
+}
+#disappear {
+  background-color: #f1f1f1;
+  padding: 50px 10px;
+  color: black;
+  text-align: center;
+  font-size: 75px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.2s;
+    height: auto;
+}
+.blog {
+text-align: left;
+width: 80%;
+margin: 35px 2% 35px 18%;
+background-color: white;
+padding: 0.2% 0.5%;
+color: #4f4f4f;
+  font-family: 'Comic Neue', cursive;
+  font-size: 20px;
+}
+
+.blog h2{
+font-family: 'Staatliches', cursive;
+background-color: #9f9f9f;
+text-align: center;
+width: 95%;
+color: white;
+}
+.left {
+margin-left: 0.5%; 
+float: left;
+position: fixed;
+width: 15%;
+padding: 17% 0.5%;
+height: 100%;
+top: 0;
+}
+ul.nav {
+  margin: 0, auto;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 30%;
+  font-size: 18px;
+  font-family: "lato", sans-serif;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: inline-block;
+  color: #444444;
+  text-align: center;
+  padding: 28px 32px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #f7f7f7;
+}
+
+.active {
+  background-color: #eaeaea;
+}
+
+.active:hover{
+  background-color: #f1f1f1;
+  }
+  table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f6f6f6;
+  font-size: 18px;
+}
+table a{
+text-decoration: none;
+color: black;
+}
+
+table a:hover{
+text-decoration: none;
+color: black;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+td:hover {
+background-color: #fafafa;
+}
+
+tr:nth-child(even) {background-color: #ffffff;}
+</style>
+<link rel="icon" href="../header.jpg" />
+<title>Blog</title>
+</head>
+<body>
+<div class="left">
+<table id="table">
+<tr>
+<th colspan="7"><center>April 2020</center></th>
+</tr>
+<tr>
+<th>S</th>
+<th>M</th>
+<th>T</th>
+<th>W</th>
+<th>T</th>
+<th>F</th>
+<th>S</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+</tr>
+<tr>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+</tr>
+<tr>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td><a href="#25">25</a></td>
+</tr>
+<tr>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+<td>29</td>
+<td>30</td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</div>
+<div id="header">
+<div id="disappear">
+<ul class="nav">
+  <li class="nav"><a href="../">Home</a></li>
+  <li class="nav"><a href="../2020calendar-Jan.html">2020 calendar</a></li>
+  <li class="nav"><a href="../games/">Games</a></li>
+  <li class="nav"><a href="../charnimation/">CHARnimation</a></li>
+<li class="nav"><a href="../otherworks.html">Other Works</a></li>
+<li class="nav"><a class="active">Blog</a></li>
+</ul>
+<br>
+United Geekdom blo <img src="logo.jpg" height="100" width="62" alt="g">
+</div>
+United Geekdom blo <img src="logo.jpg" height="60" width="40" alt="g"></div>
+<a name="25"></a><br><br><br><br><br>
+<div class="blog" style="margin-top: 12.5%">
+<h2>25<sup>th</sup> April 2020</h2>
+This is my first blog post. Spent a good part of the day designing the blog. This blog is basically an update indicator for the website, as well as a journal for all my web affairs.
+I will not be including anything personal in this.<br>
+<a href="https://scratch.mit.edu/users/knitt" >My account</a> was blocked from scratch 3 days ago on the 21<sup>st</sup> of March, for giving my e-mail to a Scratcher:<a href="https://scratch.mit.edu/users/mallikaook" >@mallikaook</a>, even though I already knew
+her. During that, I started working on the <a href="https://scratch.mit.edu/users/randomsite" >Scratch account</a> for <a href="https://randomsite.github.io" >RandomSite</a>. I had spent a lot of the lockdown
+developing that website, when I realized that I had not yet begun to further develop my own website. I still have a long length of lockdown ahead of me: the Coronavirus pandemic does not seem to be slowing down soon,
+so I decided to make a movie completely out of text, like my <a href="../charnimation" >CHARnimations</a>. It would be imaginatively titled: "CHARnimation: the movie". After a couple of days however, my
+progress was tedious, and I decided to make a blog instead. My movie is still in progress, and should be done by the end of the summer vacation/lockdown. I also remade a song with my friend 
+<a href="https://keshuook.github.io" >keshuook</a>, and will be posting it on my scratch page, and possibly this website soon. Aside from the web, I am reading some classics. I am also reading some economics books.
+I got a shortwave radio recently, and used to spend some time listening to the news, but it has just gotten too depressing now. I have a lot to do on this site, and will be sure to see you tomorrow.
+<br>Goodbye from United Geekdom.
+</div>
+<div class="blog">
+<h2>25<sup>th</sup> April 2020</h2>
+This is my first blog post. Spent a good part of the day designing the blog. This blog is basically an update indicator for the website, as well as a journal for all my web affairs.
+I will not be including anything personal in this.<br>
+<a href="https://scratch.mit.edu/users/knitt" >My account</a> was blocked from scratch 3 days ago on the 21<sup>st</sup> of March, for giving my e-mail to a Scratcher:<a href="https://scratch.mit.edu/users/mallikaook" >@mallikaook</a>, even though I already knew
+her. During that, I started working on the <a href="https://scratch.mit.edu/users/randomsite" >Scratch account</a> for <a href="https://randomsite.github.io" >RandomSite</a>. I had spent a lot of the lockdown
+developing that website, when I realized that I had not yet begun to further develop my own website. I still have a long length of lockdown ahead of me: the Coronavirus pandemic does not seem to be slowing down soon,
+so I decided to make a movie completely out of text, like my <a href="../charnimation" >CHARnimations</a>. It would be imaginatively titled: "CHARnimation: the movie". After a couple of days however, my
+progress was tedious, and I decided to make a blog instead. My movie is still in progress, and should be done by the end of the summer vacation/lockdown. I also remade a song with my friend 
+<a href="https://keshuook.github.io" >keshuook</a>, and will be posting it on my scratch page, and possibly this website soon. Aside from the web, I am reading some classics. I am also reading some economics books.
+I got a shortwave radio recently, and used to spend some time listening to the news, but it has just gotten too depressing now. I have a lot to do on this site, and will be sure to see you tomorrow.
+<br>Goodbye from United Geekdom.
+</div>
+</body>
+
+

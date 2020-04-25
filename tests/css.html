@@ -1,0 +1,104 @@
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+<title>CSS writer</title>
+<style type="text/css">
+div.body {
+background-color: #ededed;
+}
+div.scripts {
+background-color: white;
+border: 2px ridge;
+font-family: asfsfd, courier;
+padding: 10px 20px;
+}
+fieldset {
+background-color: #eeeeee;
+text-align: right;
+margin: 10px;
+font-family: armata, serif;
+font-size: 20px;
+}
+input {
+font-family: 'courier';
+font-size: 18px;
+}
+button{
+background-color: black;
+color: whitesmoke;
+float: right;
+font-size: 17px;
+font-family: arial, serif;
+}
+button:hover {
+background-color: whitesmoke;
+color: black;
+float: right;
+font-size: 15px;
+padding: 5px;
+font-family: courier, serif;
+}
+#correction {
+font-family: Arial, courier;
+font-size: 16;
+color: red;
+  background-color: #000088;
+float: right;
+}
+</style>
+</head>
+<body bgcolor="#f7f7f7">
+<fieldset>
+<legend>Body</legend>
+<form name="bg">
+<label>Choose the background colour of your webpage, as either a standard colour or a hexadecimal code: </label><input name="bgcolor" type="color" value="#ffffff"><br>
+<label>Choose the background image of your webpage (Optional, if chosen, give image link with http://): </label><input name="bgimage" ><br>
+<label>Choose the margins of your webpage (Given in order top, right, bottom and left.): </label><input type="number" name="bgmargintop" value="0"><input type="number" name="bgmarginright" value="0"><input type="number" name="bgmarginbottom" value="0"><input type="number" name="bgmarginleft" value="0"><br>   
+</form>
+</fieldset>
+<fieldset>
+<legend>Font</legend>
+<form name="fnt">
+<label>Choose the font colour of your webpage: </label><input name="fontcolor" type="color"><br>
+<label>Choose the font type of your webpage: (default: serif): </label><input name="fontface" ><br>
+<label>Choose the backup font of your webpage : </label><input name="fontfamily" value="serif"><br>
+<label>Choose the font size of your webpage: </label><input name="fontsize" ><br>
+<label>Choose the font alignment of your webpage(Right, left or center): </label><input name="fontalign" ><br>
+</form>
+</fieldset>
+<fieldset>
+<legend>Paragraph (Optional, if ignored will use font settings as default.)</legend>
+<form name="p">
+<label>Choose the font colour of your paragraph: </label><input name="pcolor" type="color"><br>
+<label>Choose the font type of your paragraph (default: serif): </label><input name="pface" ><br>
+<label>Choose the backup font of your paragraph (default: serif): </label><input name="pfamily" value="serif" ><br>
+<label>Choose the alignment of your paragraph : </label><input name="pfloat"><br>
+<label>Choose the font size of your paragraph.: </label><input name="psize" ><br>
+<label>Choose the padding of your paragraph.(Given in order top, right, bottom and left.): </label><input type="number" name="ppaddingTop" value="0"><input type="number" name="ppaddingRight" value="0"><input type="number" name="ppaddingBottom" value="0"><input type="number" name="ppaddingLeft" value="0"><br>
+<label>Choose the margins of your paragraph. (Given in order top, right, bottom and left.): </label><input type="number" name="pmargintop" value="0"><input type="number" name="pmarginright" value="0"><input type="number" name="pmarginbottom" value="0"><input type="number" name="pmarginleft" value="0"><br>
+</form>
+</fieldset>
+<fieldset>
+<legend>Divs (Optional)</legend>
+<form name="div">
+<label>Choose the background colour of your div : </label><input name="divbgcolor" value="#ffffff" type="color"><br>
+<label>Choose the border colour of your div : </label><input name="divbordercolor" value="#000000" type="color"><br>
+<label>Choose the border width of your div.: </label><input name="divsize" ><br>
+<label>Choose the font colour of your div: </label><input name="divcolor" type="color"><br>
+<label>Choose the font type of your div (default: serif): </label><input name="divface" ><br>
+<label>Choose the backup font of your div (default: serif): </label><input name="divfamily" value="serif" ><br>
+<label>Choose the alignment of your div : </label><input name="divfloat"><br>
+<label>Choose the font size of your div.: </label><input name="divsize" ><br>
+<label>Choose the padding of your div.(Given in order top, right, bottom and left.): </label><input type="number" name="divpaddingTop" value="0"><input type="number" name="divpaddingRight" value="0"><input type="number" name="divpaddingBottom" value="0"><input type="number" name="divpaddingLeft" value="0"><br>
+<label>Choose the margins of your div.(Given in order top, right, bottom and left.): </label><input type="number" name="divmargintop" value="0"><input type="number" name="divmarginright" value="0"><input type="number" name="divmarginbottom" value="0"><input type="number" name="divmarginleft" value="0"><br>
+</form>
+</fieldset>
+<button onclick="check()">Go!</button>
+<p id="correction"></p><br><br>
+<div class="scripts">
+<p id="script"></p>
+</div>
+<script src="csswriter.js">
+</script>
+</body>
+</html>
