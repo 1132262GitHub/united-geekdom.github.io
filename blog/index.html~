@@ -9,7 +9,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("disappear").style.display = "none";
         document.getElementById("hr").style.display = "none";
   } else {
@@ -69,8 +69,8 @@ color: #999999;
 }
 .blog {
 text-align: left;
-width: 80%;
-margin: 35px 2% 35px 18%;
+width: 65%;
+margin: 35px 2% 35px 32%;
 background-color: white;
 padding: 0.2% 0.5%;
 color: #4f4f4f;
