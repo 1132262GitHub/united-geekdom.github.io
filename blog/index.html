@@ -6,6 +6,10 @@
 
 
 <script>
+function darkMode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -19,6 +23,9 @@ function scrollFunction() {
 }
 </script>
 <style>
+pre {
+font-size: 16px;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -26,7 +33,34 @@ body {
   margin: 0;
   background-color: #f1f1f1;
 font-family: 'Staatliches', cursive;
+}
 
+.dark-mode {
+background-color: #141414;
+}
+
+.dark-mode #header {
+background-color: #2a2a2a;
+color: #e1e1e1;
+}
+
+.dark-mode #disappear {
+background-color: #2a2a2a;
+color: #e1e1e1;
+}
+
+.dark-mode .blog {
+background-color: black;
+color: #b1b1b1;
+}
+
+.dark-mode .blog a {
+color: #e1e1e1;
+}
+
+.dark-mode .blog h2 {
+color: black;
+background-color: #616161;
 }
 
 .blog a {
@@ -38,6 +72,28 @@ color: black;
 color: #999999;
 
 }
+ .dark-mode table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #141414;
+  color: white;
+  font-size: 18px;
+}
+
+.dark-mode tr:nth-child(odd) {background-color: #000000;}
+
+.dark-mode td:hover {
+background-color: #2a2a2a;
+}
+
+.dark-mode table a {
+ color: white;
+}
+
+.dark-mode table a:hover {
+ color: white;
+}
+
 
 #header {
   background-color: #e5e5e5;
@@ -67,12 +123,12 @@ color: #999999;
 .blog {
 text-align: left;
 width: 65%;
-margin: 35px 2% 35px 32%;
+margin: 5% 2% 5% 32%;
 background-color: white;
 padding: 0.2% 0.5%;
 color: #4f4f4f;
   font-family: 'Comic Neue', cursive;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .blog h2{
@@ -100,9 +156,32 @@ ul.nav {
   position: fixed;
   top: 0;
   width: 100%;
-  left: 25%;
+  left: 3.5%;
+  right: 3.5%;
   font-size: 18px;
   font-family: "lato", sans-serif;
+}
+
+.dark-mode ul.nav {
+background-color: #2a2a2a;
+}
+
+
+.dark-mode li.nav a {
+ color: #bbbbbb;
+}
+
+.dark-mode li.nav a:hover {
+ background-color: #090909;
+}
+
+
+.dark-mode .active {
+background-color: #353535;
+}
+
+.dark-mode li a.active:hover {
+background-color: #2a2a2a;
 }
 
 li.nav {
@@ -152,14 +231,33 @@ th, td {
 td:hover {
 background-color: #fafafa;
 }
+button {
+border: 3px ridge #888888;
+background-color: #dfdfdf;
+font-family: "lato", arial;
+font-size: 20px;
+color: #111111;
+padding: 3%;
+margin: 10%;
+}
+button:hover {
+color: #444444;
+}
 
-tr:nth-child(even) {background-color: #ffffff;}
+.dark-mode button {
+color: eeeeee;
+background-color: #323232;
+}
+
+tr:nth-child(odd) {background-color: #ffffff;}
 </style>
 <link rel="icon" href="../header.jpg" />
 <title>Blog</title>
 </head>
 <body>
 <div class="left">
+
+<button onclick="darkMode()">Dark mode</button>
 <table id="table">
 <tr>
 <th colspan="7"><center>April 2020</center></th>
@@ -210,7 +308,7 @@ tr:nth-child(even) {background-color: #ffffff;}
 <td><a href="#25">25</a></td>
 </tr>
 <tr>
-<td>26</td>
+<td><a href="#26">26</a></td>
 <td>27</td>
 <td>28</td>
 <td>29</td>
@@ -223,6 +321,7 @@ tr:nth-child(even) {background-color: #ffffff;}
 <div id="header">
 <div id="disappear">
 <ul class="nav">
+  <li class="nav"><img src="logo.jpg" width=41 height=78></li> 
   <li class="nav"><a href="../">Home</a></li>
   <li class="nav"><a href="../2020calendar-Jan.html">2020 calendar</a></li>
   <li class="nav"><a href="../games/">Games</a></li>
@@ -231,11 +330,46 @@ tr:nth-child(even) {background-color: #ffffff;}
 <li class="nav"><a class="active">Blog</a></li>
 </ul>
 <br>
-United Geekdom blo<img src="logo.jpg" height="100" width="62" alt="g">
+United Geekdom blog
 </div>
-United Geekdom blo<img src="logo.jpg" height="70" width="41" alt="g"></div>
-<a name="25"></a><br><br><br><br><br>
+United Geekdom blog</div>
+<a name="26"></a><br><br><br><br><br>
 <div class="blog" style="margin-top: 16%">
+<h2>26<sup>th</sup> April 2020</h2>
+I was not particularly productive on the web today. I managed to add a dark mode to the blog, but I haven't made any progress on my CHARnimation movie. I am working on a pixel art editor with a save code
+generator on <a href="https://scratch.mit.edu/users/randomsite" >RandomSite's Scratch account</a>, and I'm also working on a CSS code generator at the <a href="https://htmlwriter.github.io" >HTML writer
+website</a>. I have also redesigned my homepage, and removed the now redundant Updates and Notice Board sections.
+<br>
+In the process of making this blog, I have learned some nifty tricks, mainly in JavaScript and CSS. I use <a href="https://w3schools.com" >W3 schools</a> for most of my reference code, but where it fails, I use <a href="https://stackoverflow.com">Stack Overflow</a> instead.
+Most of these tricks actually use a combination of CSS and JavaScript. Below is the code used to make a basic dark mode.
+<br>The JS:
+<pre>
+// Use a button to start the function.
+function darkMode() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</pre>
+<br>The CSS:
+<pre>
+body {
+  color: black;
+  background-color: white;
+}
+
+.dark-mode {
+  color: white;
+  background-color: black;
+}
+/*Add more elements to the dark mode by using .dark mode + element. For example, .darkmode h1{color: white;} */
+</pre>
+<br> I'll include some more coding tricks in tomorrow's blog post.
+<br>For a preview of my CSS code generator, go <a href="https://htmlwriter.github.io/tests/css.html">here</a> for the latest functioning version, or <a href="../tests/css.html" >here</a> for the version
+still in progress. This is all the work I have done today, and will have to pick up the pace tomorrow.
+<br>Goodbye from United Geekdom.
+</div>
+<a name="25"></a><br><br><br><br><br>
+<div class="blog">
 <h2>25<sup>th</sup> April 2020</h2>
 This is my first blog post. Spent a good part of the day designing the blog. This blog is basically an update indicator for the website, as well as a journal for all my web affairs.
 I will not be including anything personal in this.<br>
