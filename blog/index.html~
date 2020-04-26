@@ -216,7 +216,6 @@ li a:hover {
 table a{
 text-decoration: none;
 color: black;
-padding: 5%;
 }
 
 table a:hover{
