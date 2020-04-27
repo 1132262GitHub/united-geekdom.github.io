@@ -1,0 +1,11 @@
+img {
+height: 80px;
+width: 45px;
+opacity: 1;
+}
+
+img:hover {
+height: 96px;
+width: 54px;
+opacity: 0.8;
+}  

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 40%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+body {
+background-color: orange;
+font-family: staatliches, helvetica, sans-serif;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+}
+
+#myUL li a {
+  width: 40%;
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  font-family: lato, sans-serif;
+}
+
+#myUL li a:hover:not(.header) {
+ color: #aaaaaa;
+}
+
+h2 {
+color: white;
+background-color: red;
+letter-spacing: 0.8px;
+padding: 0.3%;
+width: 40%;
+}
+</style>
+</head>
+<body>
+
+<h2>Search</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for your page here..." title="search">
+
+<ul id="myUL">
+  <li><a href="games/../">Home</a></li>
+  <li><a href="2020calendar-Jan.html">January 2020 calendar</a></li>
+    <li><a href="2020calendar-Feb.html">February 2020 calendar</a></li>
+      <li><a href="2020calendar-Mar.html">March 2020 calendar</a></li>
+    <li><a href="2020calendar-Apr.html">April 2020 calendar</a></li>
+      <li><a href="2020calendar-May.html">May 2020 calendar</a></li>
+    <li><a href="2020calendar-Jun.html">June 2020 calendar</a></li>
+      <li><a href="2020calendar-Jul.html">July 2020 calendar</a></li>
+    <li><a href="2020calendar-Aug.html">August 2020 calendar</a></li>
+          <li><a href="2020calendar-Sep.html">September 2020 calendar</a></li>
+    <li><a href="2020calendar-Oct.html">October 2020 calendar</a></li>
+      <li><a href="2020calendar-Nov.html">November 2020 calendar</a></li>
+    <li><a href="2020calendar-Dec.html">December 2020 calendar</a></li>
+      <li><a href="games/">Games home</a></li>
+            <li><a href="games/reflexes.html">How sharp are your reflexes?</a></li>
+                  <li><a href="games/casino.html">United Geekdom Casino</a></li>
+            <li><a href="games/jsgames.html">JavaScript Games</a></li>
+              <li><a href="charnimation/">CHARnimation</a></li>
+              <li><a href="blog/">Blog</a></li>
+    <li><a href="otherworks.html">Other works</a></li>
+
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "block";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>

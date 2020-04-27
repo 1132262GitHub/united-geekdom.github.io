@@ -95,37 +95,13 @@ background-color: #2a2a2a;
 }
 
 
-#header {
-  background-color: #e5e5e5;
-  padding: 50px 10px;
-  color: black;
-  text-align: center;
-  font-size: 45px; 
-  font-weight: bold;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: auto;
-}
-#disappear {
-  background-color: #e5e5e5;
-  padding: 50px 10px;
-  color: black;
-  text-align: center;
-  font-size: 75px; 
-  font-weight: bold;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-    height: auto;
-}
+
 .blog {
 text-align: left;
 width: 65%;
 margin: 5% 2% 5% 32%;
 background-color: white;
-padding: 0.2% 0.5%;
+padding: 1.7% 1.2%;
 color: #4f4f4f;
   font-family: 'Comic Neue', cursive;
   font-size: 22px;
@@ -241,7 +217,7 @@ padding: 3%;
 margin: 10%;
 }
 button:hover {
-color: #444444;
+color: #888888;
 }
 
 .dark-mode button {
@@ -249,7 +225,36 @@ color: eeeeee;
 background-color: #323232;
 }
 
+.dark-mode button:hover {
+color: #a8a8a8;
+}
+
 tr:nth-child(odd) {background-color: #ffffff;}
+#header {
+  background-color: #e5e5e5;
+  padding: 2%;
+  color: black;
+  text-align: center;
+  font-size: 45px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+#disappear {
+  background-color: #e5e5e5;
+  padding: 1%;
+  color: black;
+  text-align: center;
+  font-size: 75px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+    height: auto;
+}
 </style>
 <link rel="icon" href="../header.jpg" />
 <title>Blog</title>
@@ -309,7 +314,7 @@ tr:nth-child(odd) {background-color: #ffffff;}
 </tr>
 <tr>
 <td><a href="#26">26</a></td>
-<td>27</td>
+<td><a href="#27">27</a></td>
 <td>28</td>
 <td>29</td>
 <td>30</td>
@@ -328,13 +333,48 @@ tr:nth-child(odd) {background-color: #ffffff;}
   <li class="nav"><a href="../charnimation/">CHARnimation</a></li>
 <li class="nav"><a href="../otherworks.html">Other Works</a></li>
 <li class="nav"><a class="active">Blog</a></li>
+<li class="nav" style="float: right; margin-right: 4%"><a href="../search.html"><img src="../searchicon.png" alt="Search"></a></li>
 </ul>
 <br>
 United Geekdom blog
 </div>
 United Geekdom blog</div>
-<a name="26"></a><br><br><br><br><br>
-<div class="blog" style="margin-top: 16%">
+<a name="27"></a><br><br><br><br><br>
+<div class="blog">
+<h2>27<sup>th</sup> April 2020</h2>
+Today, I made a search engine for my website. That's not exactly true: I had originally made it for <a href="https://randomsite.github.io" >RandomSite</a>, and then copied it into my own site, but it's
+close enough. I have not made any major changes to my blog today.
+<br>I have been making music with <a href="https://keshuook.github.io" >keshuook</a>. I play the drums, and he does the guitar and vocals. Here are two songs that we have made together, for a Scratch movie
+called "Robots' revenge":
+<br><audio controls>
+  <source src="../no_hellwav.wav" type="audio/wav">
+Your web browser does not support the audio player.
+</audio>
+<audio controls>
+<br><source src="../allhailmightyrobots.wav" type="audio/wav">
+</audio>
+<br>As you can see, I am not that great at the drums, but it's good enough for a scratch audience.
+I have discontinued the CHARnimation movie, and am working more on the aforementioned <a href="https://htmlwriter.github.io">HTMLwriter</a>, and have decided to start a maths section with a couple of
+year-old unreleased projects. Here is a generator for the number <i>e</i>, which is generated from the formula [1 + <sup>1</sup>/<sub><i>n</i></sub>]<sup><i>n</i></sup>, where <i>n</i> = infinity. 
+This is a generator which creates <i>e</i> for a given value of <i>n</i>. However, this generator seems to break down for especially large inputs of <i>n</i>.
+<br>
+<input id="numb" type="number">
+<button type="button" onclick="e()">Go!</button>
+<p id="demo"><br></p>
+<script>
+function e() {
+  var x, y;
+  x = document.getElementById("numb").value
+  y = ((1 + (1 / x)) ** x) / 10;
+  document.getElementById("demo").innerHTML = y * 10;
+}
+</script>
+That is all for now.
+<br>Goodbye from United Geekdom.
+<i>PS: Can anyone show me how to fix the problem where the audio players scroll over the fixed div? Please <a href="../" >leave a comment</a> if you know how to fix it.</i>
+</div>
+<a name="26"></a><br><br>
+<div class="blog">
 <h2>26<sup>th</sup> April 2020</h2>
 I was not particularly productive on the web today. I managed to add a dark mode to the blog, but I haven't made any progress on my CHARnimation movie. I am working on a pixel art editor with a save code
 generator on <a href="https://scratch.mit.edu/users/randomsite" >RandomSite's Scratch account</a>, and I'm also working on a CSS code generator at the <a href="https://htmlwriter.github.io" >HTML writer
@@ -361,14 +401,15 @@ body {
   color: white;
   background-color: black;
 }
-/*Add more elements to the dark mode by using .dark mode + element. For example, .darkmode h1{color: white;} */
 </pre>
+Add more elements to the dark mode by using .dark mode + element. For example, .darkmode h1{color: white;} 
+
 <br> I'll include some more coding tricks in tomorrow's blog post.
 <br>For a preview of my CSS code generator, go <a href="https://htmlwriter.github.io/tests/css.html">here</a> for the latest functioning version, or <a href="../tests/css.html" >here</a> for the version
 still in progress. This is all the work I have done today, and will have to pick up the pace tomorrow.
 <br>Goodbye from United Geekdom.
 </div>
-<a name="25"></a><br><br><br><br><br>
+<a name="25"></a><br><br>
 <div class="blog">
 <h2>25<sup>th</sup> April 2020</h2>
 This is my first blog post. Spent a good part of the day designing the blog. This blog is basically an update indicator for the website, as well as a journal for all my web affairs.
