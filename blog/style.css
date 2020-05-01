@@ -1,0 +1,257 @@
+pre {
+font-size: 16px;
+}
+html{
+  scroll-behavior: smooth;
+}
+body { 
+  margin: 0;
+  background-color: #f1f1f1;
+font-family: 'Staatliches', cursive;
+}
+
+select {
+background-color: white;
+border: none;
+font-family: 'Staatliches', cursive;
+float: left;
+font-size: 100%;
+}
+
+select:hover {
+background-color: #eaeaea;
+}
+
+.dark-mode select {
+background-color: black;
+color: white;
+border: none;
+font-family: 'Staatliches', cursive;
+float: left;
+font-size: 100%;
+}
+
+.dark-mode select:hover {
+background-color: #171717;
+}
+
+.dark-mode {
+background-color: #141414;
+}
+
+.dark-mode #header {
+background-color: #2a2a2a;
+color: #e1e1e1;
+}
+
+.dark-mode #disappear {
+background-color: #2a2a2a;
+color: #e1e1e1;
+}
+
+.dark-mode .blog {
+background-color: black;
+color: #b1b1b1;
+}
+
+.dark-mode .blog a {
+color: #e1e1e1;
+}
+
+.dark-mode .blog h2 {
+color: black;
+background-color: #616161;
+}
+
+.blog a {
+color: black;
+  transition-duration: 0.35s;
+}
+
+.blog a:hover {
+color: #999999;
+
+}
+ .dark-mode table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #141414;
+  color: white;
+  font-size: 18px;
+}
+
+.dark-mode tr:nth-child(odd) {background-color: #000000;}
+
+.dark-mode td:hover {
+background-color: #2a2a2a;
+}
+
+.dark-mode table a {
+ color: white;
+}
+
+.dark-mode table a:hover {
+ color: white;
+}
+
+
+
+.blog {
+text-align: left;
+width: 65%;
+margin: 5% 2% 5% 32%;
+background-color: white;
+padding: 1.7% 1.2%;
+color: #4f4f4f;
+  font-family: 'Comic Neue', cursive;
+  font-size: 22px;
+}
+
+.blog h2{
+font-family: 'Staatliches', cursive;
+background-color: #9f9f9f;
+text-align: center;
+width: 95%;
+color: white;
+}
+.left {
+margin-left: 0.5%; 
+float: left;
+position: fixed;
+width: 15%;
+padding: 19% 0.5%;
+height: 100%;
+top: 0;
+}
+ul.nav {
+  margin: 0, auto;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 3.5%;
+  right: 3.5%;
+  font-size: 18px;
+  font-family: "lato", sans-serif;
+}
+
+.dark-mode ul.nav {
+background-color: #2a2a2a;
+}
+
+
+.dark-mode li.nav a {
+ color: #bbbbbb;
+}
+
+.dark-mode li.nav a:hover {
+ background-color: #090909;
+}
+
+
+.dark-mode .active {
+background-color: #353535;
+}
+
+.dark-mode li a.active:hover {
+background-color: #2a2a2a;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: inline-block;
+  color: #444444;
+  text-align: center;
+  padding: 28px 32px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #f1f1f1;
+}
+
+.active {
+  background-color: #dddddd;
+}
+
+.active:hover{
+  background-color: #e5e5e5;
+  }
+  table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f1f1f1;
+  font-size: 18px;
+}
+table a{
+text-decoration: none;
+color: black;
+}
+
+table a:hover{
+text-decoration: none;
+color: black;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+td:hover {
+background-color: #fafafa;
+}
+button {
+border: 3px ridge #888888;
+background-color: #dfdfdf;
+font-family: "lato", arial;
+font-size: 20px;
+color: #111111;
+padding: 3%;
+margin: 10%;
+}
+button:hover {
+color: #888888;
+}
+
+.dark-mode button {
+color: eeeeee;
+background-color: #323232;
+}
+
+.dark-mode button:hover {
+color: #a8a8a8;
+}
+
+tr:nth-child(odd) {background-color: #ffffff;}
+#header {
+  background-color: #e5e5e5;
+  padding: 2%;
+  color: black;
+  text-align: center;
+  font-size: 45px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+#disappear {
+  background-color: #e5e5e5;
+  padding: 1%;
+  color: black;
+  text-align: center;
+  font-size: 75px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+    height: auto;
+}
