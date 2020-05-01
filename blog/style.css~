@@ -31,7 +31,7 @@ float: left;
 font-size: 100%;
 }
 
-.dark-mode select {
+.dark-mode select:hover {
 background-color: #171717;
 }
 
@@ -119,7 +119,7 @@ margin-left: 0.5%;
 float: left;
 position: fixed;
 width: 15%;
-padding: 19% 0.5%;
+padding: 17% 0.5%;
 height: 100%;
 top: 0;
 }
