@@ -119,7 +119,7 @@ margin-left: 0.5%;
 float: left;
 position: fixed;
 width: 15%;
-padding: 17% 0.5%;
+padding: 14% 0.5%;
 height: 100%;
 top: 0;
 }
@@ -232,7 +232,7 @@ color: #a8a8a8;
 tr:nth-child(odd) {background-color: #ffffff;}
 #header {
   background-color: #e5e5e5;
-  padding: 2%;
+  padding: 1%;
   color: black;
   text-align: center;
   font-size: 45px; 
@@ -244,7 +244,7 @@ tr:nth-child(odd) {background-color: #ffffff;}
 }
 #disappear {
   background-color: #e5e5e5;
-  padding: 1%;
+  padding: 0.5%;
   color: black;
   text-align: center;
   font-size: 75px; 
