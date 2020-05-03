@@ -10,6 +10,15 @@ body {
 font-family: 'Staatliches', cursive;
 }
 
+dt {
+margin: 10px;
+font-weight: bold;
+}
+
+dd {
+margin: 10px;
+}
+
 select {
 background-color: white;
 border: none;
@@ -119,7 +128,7 @@ margin-left: 0.5%;
 float: left;
 position: fixed;
 width: 15%;
-padding: 14.5% 0.5%;
+padding: 14% 0.5%;
 height: 100%;
 top: 0;
 }
