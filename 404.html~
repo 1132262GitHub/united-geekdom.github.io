@@ -1,17 +1,17 @@
 <html>
 <head>
-<link rel="shortcut icon" href="header.jpg" />
-<link rel="stylesheet" href="style.css" />
+<link rel="shortcut icon" href="/header.jpg" />
+<link rel="stylesheet" href="/style.css" />
 <title>Error</title>
 </head>
 <body bgcolor="red">
 <ul class="nav">
-  <li class="nav"><img src="logo.jpg" width=45 height=80></li> 
-  <li class="nav"><a class="active">Home</a></li>
-  <li class="nav"><a href="2020calendar-Jan.html">2020 calendar</a></li>
-  <li class="nav"><a href="games/">Games</a></li>
-  <li class="nav"><a href="charnimation/">CHARnimation</a></li>
-<li class="nav"><a href="otherworks.html">Other Works</a></li>
+  <li class="nav"><img src="/logo.jpg" width=45 height=80></li> 
+  <li class="nav"><a class="/active">Home</a></li>
+  <li class="nav"><a href="/2020calendar-Jan.html">2020 calendar</a></li>
+  <li class="nav"><a href="/games/">Games</a></li>
+  <li class="nav"><a href="/charnimation/">CHARnimation</a></li>
+<li class="nav"><a href="/otherworks.html">Other Works</a></li>
 </ul>
 <div class="error">
 <h3>404 error.</h3>
