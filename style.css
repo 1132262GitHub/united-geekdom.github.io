@@ -42,6 +42,9 @@ li a:hover {
   background-color: tomato;
 }
 
+.active:hover{
+  background-color: tomato;
+  }
 
 .right {
 float: right;
