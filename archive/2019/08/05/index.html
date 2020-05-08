@@ -2,6 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript" >
+function toggleNotes() {
+	var element = document.body;
+	element.classList.toggle("notes");
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../footer.css" />
 <title>The geekdom's capital.</title>
 </head>
 <body>
@@ -19,5 +27,13 @@
 <br>
 <p>Fits this page, doesn't it?</p>
 </font>
+<div id="footer">
+<div id="authornotes">
+This update does not entail any major changes. The only addition is a poem in the poetry section.
+<br>
+<a onclick="toggleNotes()">Hide authour's notes</a>
+</div>
+<a onclick="toggleNotes()">Show authour's notes on this archive</a>
+</div>
 </body>
 </html>

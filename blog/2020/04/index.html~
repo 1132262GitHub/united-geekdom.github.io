@@ -89,7 +89,7 @@
 <div id="header">
 <div id="disappear">
 <ul class="nav">
-  <li class="nav"><img src="logo.jpg" width=41 height=78></li> 
+  <li class="nav"><img src="../../logo.jpg" width=41 height=78></li> 
   <li class="nav"><a href="../../../">Home</a></li>
   <li class="nav"><a href="../../../2020calendar-Jan.html">2020 calendar</a></li>
   <li class="nav"><a href="../../../games/">Games</a></li>

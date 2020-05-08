@@ -1,0 +1,57 @@
+<head>
+<script type="text/javascript" >
+function toggleNotes() {
+	var element = document.body;
+	element.classList.toggle("notes");
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+<style type="text/css">
+
+#footer {
+left: 0;
+bottom: 0;
+font-family: lato, sans-serif;
+  background-color: #7CB9E8;
+  padding: 0.2%;
+  color: white;
+  text-align: center;
+  font-size: 125%; 
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+#authornotes {
+bottom: 0;
+display: none;
+font-family: lato, sans-serif;
+  background-color: #7CB9E8;
+  padding: 0.4%;
+  color: white;;
+  text-align: center;
+  font-size: 100%; 
+  position: fixed;
+  left: 0;
+  width: 100%;
+    height: auto;
+}
+.notes #authornotes {
+display: block;
+}
+#footer a, #authornotes a {
+text-decoration: underline;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+<div id="footer">
+<div id="authornotes">
+My notes
+<a onclick="toggleNotes()">Hide footer</a>
+</div>
+<a onclick="toggleNotes()">Open footer</a>
+</div>
+</body>

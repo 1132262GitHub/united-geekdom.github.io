@@ -2,6 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript" >
+function toggleNotes() {
+	var element = document.body;
+	element.classList.toggle("notes");
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../footer.css" />
 <title>The geekdom's capital.</title>
 </head>
 <body>
@@ -14,10 +22,21 @@
 <p>If you're wondering how this is geeky, the very fact that I've written this page with HTML should be. The fact that It's being hosted on GitHub comes as an added bonus.</p>
 <p>For now, all this home page features is this thing I created on a drawing program, so here it is.</p>
 <font size=3 color="white">
-<img src="limericks.jpg" width=500 height=500 alt="This image isn't loading. Not really a loss.">
+<img src="../../../../limericks.jpg" width=500 height=500 alt="This image isn't loading. Not really a loss.">
 <font size=6 color="purple">
 <br>
 <p>Fits this page, doesn't it?</p>
 </font>
+<div id="footer">
+<div id="authornotes">
+With this version of the website comes the introduction of the 2020 calendar, whose notes are currently being written well into 2020, and in the middle of a worldwide coronavirus pandemic. This calendar 
+is notoriously difficult to edit, as it has twelve pages, all of which require editing at the same time :P. I also attempted to set up a really terrible navigational system for the poems section, using
+symbols made from characters (<, <<, >, >>), and the <code>&lta href=""&gt</code> tag. This would be rectified twice, the second time making it the current system. The poems can now be found 
+<a href="https://pencilpublishers.github.io/poems/"></a>
+<br>
+<a onclick="toggleNotes()">Hide authour's notes</a>
+</div>
+<a onclick="toggleNotes()">Show authour's notes on this archive</a>
+</div>
 </body>
 </html>

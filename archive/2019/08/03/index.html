@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript" >
+function toggleNotes() {
+	var element = document.body;
+	element.classList.toggle("notes");
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../footer.css" />
 <title>The geekdom's capital.</title>
 </head>
 <body>
@@ -18,5 +26,19 @@
 <br>
 <p>Fits this page, doesn't it?</p>
 </font>
+<div id="footer">
+<div id="authornotes">
+As explained in the <a href="../../../insertgenericwebsitenamehere">page for my previous website</a>, this website used to be called the generic website, and was built on Serveo, before it became too
+difficult to maintain the servers, and I shifted it here. Apart from the name and domain change, it may seem like the first version of this website is indistinguishable from the previous one, and indeed it is.
+However, the name and domain change in itself set a change of pace for this website. In the previous one, I had not even thought about picking up the languages such as JavaScript and CSS, which made this
+ website what it is now. In fact, I was not even really serious about the website, and had meant for it to be mostly dormant. However, with a change of environment, one where there is a larger community 
+ and greater social interaction, such as the ability to commit to other projects, I was more encouraged to take the website further, and can now create pages which wouldn't have been palpable in my 
+ previous website.
+ 
+<br>
+<a onclick="toggleNotes()">Hide authour's notes</a>
+</div>
+<a onclick="toggleNotes()">Show authour's notes on this archive</a>
+</div>
 </body>
 </html>
