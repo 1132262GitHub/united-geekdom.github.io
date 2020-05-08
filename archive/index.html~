@@ -10,7 +10,7 @@ function calendar() {
 }
 </script>
 <style type="text/css">
-html{scroll-behavior: smooth;}
+html {scroll-behavior: smooth;}
 body{
 background-color: #777777;
 font-family: 'Ubuntu Condensed', sans-serif;
@@ -100,7 +100,7 @@ transition: 0.4s;
 
 .content {
 margin: 3% 6%;
-width: 75%;
+width: 68%;
 font-size: 145%;
 padding: 2% 1.5%;
 float: right;
