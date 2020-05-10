@@ -15,7 +15,7 @@ text-decoration: none;
 color: #ffffff;
 }
 table a:hover {
-border: 0.3px solid white;
+border: 0.3px dotted white;
 }
 
 th, td {

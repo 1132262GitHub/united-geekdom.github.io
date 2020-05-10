@@ -151,17 +151,7 @@ border: 1px solid black;
 padding: 0;
 }
 
-button {
-border: 1.5px solid black;
-background-color: #bdbdbd;
-font-family: staatliches, sans-serif;
-font-size: 100%;
-}
 
-button:hover {
-border: 1.5px dashed black;
-background-color: #c8c8c8;
-}
 .timeline-left {
 padding: 15px 0px;
 float: left;
@@ -173,7 +163,7 @@ text-align: center;
 .timeline-right {
 padding: 15px 0px;
 float: right;
-width: 49.825%;
+width: 50%;
 height: auto;
 border-left: 3px solid black;
 text-align: center;
@@ -276,7 +266,7 @@ This archive stores the pages from the creation of this website on the 3<sup>rd<
 <p>On the 3<sup>rd</sup> of May, on scrolling through my <a href="https://github.com/united-geekdom">GitHub page</a>, 
 I found an archive of all my commits to my <a href="https://github.com/united-geekdom/united-geekdom.github.io"> website repository</a>. Looking at the code, I slowly smiled at the simple code I was so 
 proud of then, and hearkened back to the simpler days so many ages ago, perhaps as long as 9 <i>months</i> ago. I then decided to recreate my website from those 9 months ago, and make one for every day
-I made a major commit. At the time of creation, I meant it to detail each day until the major CSS update (28<sup>th</sup> of October 2019), but if my website encounters any other major updates during
+I made a commit, along with authour's notes for most of them. At the time of creation, I meant it to detail each day until the major CSS update (28<sup>th</sup> of October 2019), but if my website encounters any other major updates during
 the days until the completion of the archive, which it probably will, the archive will detail a much longer period of time.
 </p>
 
@@ -288,12 +278,12 @@ the days until the completion of the archive, which it probably will, the archiv
 <fieldset>
 <legend>Use the portal to open pages</legend>
  <select id="year" accesskey="target">
- <option value="2019/" selected>2019</option>
+ <option value="2019/" onclick="calendar()" selected>2019</option>
  </select>
 <select id="month" accesskey="target">
-<option value="08/" selected>August</option>
+<option value="08/" onclick="calendar()" selected>August</option>
+<option value="09/" onclick="calendar()" selected>September</option>
 </select>
- <button onclick="calendar()">Open</button>
  <br>
 <iframe id="portal" src="2019/08/calendar.html" height="345" width="252"></iframe>
 </fieldset>

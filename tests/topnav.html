@@ -5,9 +5,8 @@ var htmlcode, csscode, srccode;
 
 function check() {
 	if (document.getElementById("div-bgcolor").value == "" || document.getElementById("a-color").value == "" ||document.getElementById("a-hover-bgcolor").value == "" ||document.getElementById("a-hover-color").value == "" || document.getElementById("a-active-bgcolor").value == "" ||document.getElementById("a-active-color").value == "" ||document.getElementById("font-size").value == "" ||document.getElementById("font-face").value == "" ||document.getElementById("font-family").value == "" ||document.getElementById("padding").value == "") {
-	document.getElementById("script").innerHTML = "Please fill out all fields";	
+	alert("Please fill out all fields");	
 } else {
-document.getElementById("script").innerHTML = "";
 cssgenerate()
 }
 }

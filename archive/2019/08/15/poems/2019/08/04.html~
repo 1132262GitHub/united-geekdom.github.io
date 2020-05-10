@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Pollution</title>
+</head>
+<body bgcolor="yellow">
+<font color="red" size="5">
+<h3>Pollution</h3>
+<pre>
+The kids all cried 'what do we do?!'
+When the factory smoke killed all that flew.
+'When it was the birds, we cheered:
+"No more dropped turds!",
+But now it's killed superman too!'
+</pre>
+<form action="03.html">
+<input type="submit" value="<<">
+</form>
+<form action="03.html">
+<input type="submit" value="<">
+</form>
+<form action="05.html">
+<input type="submit" value=">">
+</form>
+<form action="https://united-geekdom.github.io/poems">
+<input type="submit" value=">>">
+</form>
+</body>
+</html>

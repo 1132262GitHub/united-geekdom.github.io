@@ -1,0 +1,22 @@
+<html>
+<body>
+<label>Width of your scrollbar</label><br>
+<input id="width" type="number" /><br>
+<label>Background color of your scrollbar</label><br>
+<input id="track-background" type="color" /><br>
+<label>Color of your scrollbar</label><br>
+<input id="thumb-color" type="color" /><br>
+<label>Color of your scrollbar on hover</label><br>
+<input id="thumb-color-hover" type="color" /><br>
+<input id="curve" type="checkbox" /><br>
+<label>Elliptical scrollbar</label><br>
+<button onclick="check()">Go!</button>
+<script type="text/javascript" >
+function check() {
+	if (document.getElementById("track-background").value == "") {
+		alert('Please fill out all fields');
+}
+}
+</script>
+</body>
+</html>
