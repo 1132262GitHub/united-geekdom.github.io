@@ -5,7 +5,7 @@ var htmlcode, csscode, srccode;
 
 function check() {
 	if (document.getElementById("div-bgcolor").value == "" || document.getElementById("a-color").value == "" ||document.getElementById("a-hover-bgcolor").value == "" ||document.getElementById("a-hover-color").value == "" || document.getElementById("a-active-bgcolor").value == "" ||document.getElementById("a-active-color").value == "" ||document.getElementById("font-size").value == "" ||document.getElementById("font-face").value == "" ||document.getElementById("font-family").value == "" ||document.getElementById("padding").value == "") {
-	alert("Please fill out all fields";)	
+	alert("Please fill out all fields");	
 } else {
 cssgenerate()
 }
@@ -28,10 +28,12 @@ htmlcode += "<br>" + "&lta class='active' href='" + document.getElementById("lin
 htmlcode += "<br>" + "&lta href='" + document.getElementById("link").value + "'&gt" + document.getElementById("txt").value + "&lt/a&gt";
 }
 }
+
 function generate() {
+
 	htmlcode += "<br>" + "&lt/div&gt";
 	srccode = "&lthtml&gt"+"<br>"+"&ltbody&gt"+"<br>"+csscode+"<br>"+htmlcode+"<br>"+"&lt/body&gt"+"<br>"+"&lt/html&gt";
-	document.getElementById("script").innerHTML = htmlcode; 
+	document.getElementById("script").innerHTML = srccode; 
 }
 </script>
 </head>

@@ -151,7 +151,17 @@ border: 1px solid black;
 padding: 0;
 }
 
+button {
+border: 1.5px solid black;
+background-color: #bdbdbd;
+font-family: staatliches, sans-serif;
+font-size: 100%;
+}
 
+button:hover {
+border: 1.5px dashed black;
+background-color: #c8c8c8;
+}
 .timeline-left {
 padding: 15px 0px;
 float: left;
@@ -281,11 +291,12 @@ the days until the completion of the archive, which it probably will, the archiv
  <option value="2019/" onclick="calendar()" selected>2019</option>
  </select>
 <select id="month" accesskey="target">
-<option value="08/" onclick="calendar()" selected>August</option>
+<option value="08/" onclick="calendar()">August</option>
 <option value="09/" onclick="calendar()" selected>September</option>
 </select>
+ <button onclick="calendar()">Open</button>
  <br>
-<iframe id="portal" src="2019/08/calendar.html" height="345" width="252"></iframe>
+<iframe src="2019/09/calendar.html" id="portal" height="345" width="252"></iframe>
 </fieldset>
 <p>See the <a href="insertgenericwebsitenamehere/">pre GitHub version of my website</a>!</p>
 </div>

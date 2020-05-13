@@ -44,7 +44,10 @@ So I had actually created this website on the 27<sup>th</sup> of July 2019, one 
 It was just created as my friend created their website, RandomWebsite (later to become RandomSite), also using Serveo. However, Serveo required an installation of a server, and the server was an absolute
 pain to maintain (hey, that rhymed!). I had to keep my computer running 24/7, or else my website wouldn't work. So one week later I made the switch to GitHub, as it seemed much easier to use and I was already familiar.
 A couple of days later, my friend made the same move for <a href="https://randomsite.github.io">RandomSite</a>. I was also not proud of the name which I had bestowed upon my website, so I dubbed my new website
-United Geekdom, which, for reasons unbeknownst to myself or anyone I know, I am much prouder of.<br> 
+United Geekdom, which, for reasons unbeknownst to myself or anyone I know, I am much prouder of. This also, interestingly, features a poem which was later removed. Of course, in a couple of months the 
+entire poems section would be removed and relocated to <a href="https://pencilpublishers.github.io/poems/">Pencil Publishers</a>. Also, the theme for my webpage has never really changed: it has always 
+been an orange background with a purple serif font, and the well known picture of a confused guy <br><img src="../../limericks.jpg" width="200" height="200"><br>, and an insulting but accurate description of my site.
+<br> 
 <a onclick="toggleNotes()">Hide authour's notes</a>
 </div>
 <a onclick="toggleNotes()">Show authour's notes on this archive</a>

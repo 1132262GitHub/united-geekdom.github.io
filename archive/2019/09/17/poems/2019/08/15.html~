@@ -1,0 +1,38 @@
+<html>
+<head>
+<link rel="shortcut icon" href="logo.jpg" />
+<title>Independence special</title>
+</head>
+<body>
+<body bgcolor="yellow">
+<font size=5>
+<a href="http://united-geekdom.github.io">Home</a>
+<hr size=30 color="orange">
+<hr size=30 color="white">
+<hr size=30 color="green">
+<font size=5 color="red">
+<h3>Independence special</h3>
+<pre>
+They're isolated, what a thing!
+They must be an estranged tribe to sing.
+Not a tribal chant,
+Which our culture does grant,
+But their anthem's 'God Save the King'!
+</pre>
+<br>
+<i>(Happy Indian Independence Day from</i> United Geekdom <i>. 72 years since we've had to sing this song!)</i>
+<br>
+<form action="03.html">
+    <input type="submit" value="<<" />
+</form>
+<form action="06.html">
+    <input type="submit" value="<" />
+</form>
+<form action="16.html">
+    <input type="submit" value=">" />
+</form>
+<form action="https://united-geekdom.github.io/poems">
+    <input type="submit" value=">>" />
+</form>
+</body>
+</html>

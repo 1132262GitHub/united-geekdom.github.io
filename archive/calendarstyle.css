@@ -26,6 +26,6 @@ th {
 letter-spacing: 0.8px;
 }
 
-tr:nth-child(4n+2) {background-color: #161616;}
-tr:nth-child(4n+3) {background-color: #000000;}
-tr:nth-child(4n) {background-color: #242424;}
+tr:nth-child(4n) {background-color: #313131;}
+tr:nth-child(4n+1) , tr:nth-child(4n+3) {background-color: #000000;}
+tr:nth-child(4n+2) {background-color: #1b1b1b;}

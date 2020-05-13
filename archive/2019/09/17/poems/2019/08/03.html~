@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel="shortcut icon" href="logo.jpg" />
+<title>Cured Salmon</title>
+</head>
+<body bgcolor="yellow">
+<font color="red" size="5">
+<h3>Cured Salmon</h3>
+<pre>
+Fred the salmon had his life insured
+Though his friends thought insurance was fraud.
+But when he was fished
+And his breathing was wished
+He was taken away, and cured!
+</pre>
+<form action="04.html">
+<input type="submit"  value=">">
+</form>
+<form action="https://united-geekdom.github.io/poems">
+<input type="submit"  value=">>">
+</form>
+</body>
+</html>

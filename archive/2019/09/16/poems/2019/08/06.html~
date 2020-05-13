@@ -1,0 +1,29 @@
+<html>
+<head>
+<link rel="shortcut icon" href="logo.jpg" />
+<title>Superman's mistake</title>
+</head>
+<body bgcolor="yellow">
+<font color="red" size="5">
+<h3>Superman's mistake</h3>
+<pre>
+We shouldn't have taken The Flash to the bar.
+Who knew that his speed would extend so very far?
+In five seconds flat,
+He's mad as a bat!
+Why did we take him to the bar?
+</pre>
+<form action="03.html">
+<input type="submit" value="<<">
+</form>
+<form action="05.html">
+<input type="submit" value="<">
+</form>
+<form action="15.html">
+<input type="submit" value=">">
+</form>
+<form action="https://united-geekdom.github.io/poems">
+<input type="submit" value=">>">
+</form>
+</body>
+</html>

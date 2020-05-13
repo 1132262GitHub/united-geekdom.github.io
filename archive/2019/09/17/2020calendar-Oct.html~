@@ -1,0 +1,108 @@
+<html>
+<head>
+<script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>
+<link rel="shortcut icon" href="logo.jpg" />
+<title>October 2020 calendar</title>
+</head>
+<body>
+<body bgcolor="#00FFFF">
+<font size =5>
+<a href="http://united-geekdom.github.io">Home</a>
+</font>
+<hr>
+<font size=60 color="blue">
+<h1 align="center">2020</h1>
+</font>
+<br>
+<font color="#7DF9FF">
+<table border=1 bgcolor="#7DF9FF" cellpadding=30 align="center">
+<tr>
+<th colspan=7 align="center">
+October
+<br>
+<form action="">
+<select name="January" id="list" accesskey="target">
+    <option value='none' selected></option>
+    <option value="2020calendar-Jan.html">January</option>
+    <option value="2020calendar-Feb.html">February</option>
+    <option value="2020calendar-Mar.html">March</option>
+    <option value="2020calendar-Apr.html">April</option>
+    <option value="2020calendar-May.html">May</option>
+    <option value="2020calendar-Jun.html">June</option>
+    <option value="2020calendar-Jul.html">July</option>
+    <option value="2020calendar-Aug.html">August</option>
+    <option value="2020calendar-Sep.html">September</option>
+    <option value="2020calendar-Oct.html">October</option>
+    <option value="2020calendar-Nov.html">November</option>
+    <option value="2020calendar-Dec.html">December</option>			
+</select>
+<input type=button value="Select month" onclick="goToNewPage()" />
+</form>
+</th>
+</tr>
+<tr>
+<th>Sun</th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+<th>Sat</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+</tr>
+<tr>
+<td>11</td>
+<td>12</td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+</tr>
+<tr>
+<td>18</td>
+<td>19</td>
+<td>20</td>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+</tr>
+<tr>
+<td>25</td>
+<td>26</td>
+<td>27</td>
+<td>28</td>
+<td>29</td>
+<td>30</td>
+<td>31</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
