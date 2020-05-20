@@ -9,6 +9,10 @@
   padding: 50px;
 }
 
+body {
+font-family: arial, sans-serif;
+}
+
 ul.nav {
   list-style-type: none;
   margin: 0 0 0 0;
@@ -34,7 +38,7 @@ li.nav a {
 }
 
 li a:hover {
-  background-color: #FFFFCC;
+  background-color: tomato;
   color: #987;
 }
 
@@ -118,4 +122,44 @@ width: 85%;
 
 iframe {
 width: 100%;
+}
+
+.sister {
+
+	background-color: white;
+	margin-bottom: 10%;
+	border: 3px solid purple;
+min-width: 180%;
+height: 400px;
+}
+
+.sister div {
+	float: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 12.5%;
+  height: 400px;
+}
+
+.sister div p {
+text-align: center;
+color: white;
+background-color: transparent;
+bottom: 0;
+
+}
+.sister div p a {
+text-decoration: none;
+text-align: center;
+color: white;
+background-color: transparent;
+bottom: 0;
+}
+.sister div p a:hover {
+text-decoration: underline;
+text-align: center;
+color: white;
+background-color: transparent;
+bottom: 0;
 }
