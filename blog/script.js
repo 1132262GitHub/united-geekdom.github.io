@@ -3,7 +3,6 @@ function darkMode() {
    element.classList.toggle("dark-mode");
 }
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("disappear").style.display = "none";

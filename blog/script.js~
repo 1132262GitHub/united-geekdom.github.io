@@ -3,7 +3,7 @@ function darkMode() {
    element.classList.toggle("dark-mode");
 }
 window.onscroll = function() {scrollFunction()};
-
+document.title.value = "lol";
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("disappear").style.display = "none";
@@ -16,5 +16,5 @@ function scrollFunction() {
 function newPage() {
 var month = document.getElementById("month").value;
 var year = document.getElementById("year").value;
-window.location = "../../" + month + year;
+window.location = "../../" + year + month;
 }

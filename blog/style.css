@@ -164,11 +164,11 @@ background-color: #2a2a2a;
 
 
 .dark-mode .active {
-background-color: #353535;
+background-color: #1f1f1f;
 }
 
 .dark-mode li a.active:hover {
-background-color: #2a2a2a;
+background-color: #1f1f1f;
 }
 
 li.nav {
@@ -192,7 +192,7 @@ li a:hover {
 }
 
 .active:hover{
-  background-color: #e5e5e5;
+  background-color: #dddddd;
   }
   table {
   border-collapse: collapse;
