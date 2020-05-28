@@ -46,8 +46,8 @@ li.nav a {
 }
 
 li a:hover {
-  background-color: tomato;
-  color: #987;
+  background-color: #ffffe5;
+  color: #555555;
 }
 
 .active {
@@ -56,6 +56,7 @@ li a:hover {
 
 .active:hover{
   background-color: tomato;
+    color: #987;
   }
 
 .right {

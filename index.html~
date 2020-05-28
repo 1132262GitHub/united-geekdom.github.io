@@ -4,7 +4,7 @@
 <head>
 <link rel="stylesheet" href="style.css" />
 <link rel="shortcut icon" href="header.jpg">
-<title>The geekdom's capital</title>
+<title>Entering United Geekdom</title>
 </head>
 <body bgcolor="orange">
 <div id="intro">
@@ -54,7 +54,7 @@ friends at <a class="body" href="https://randomsite.github.io">randomsite</a> cr
 </div>
 </div>
 <script type="text/javascript" >
-document.getElementById("intro").innerHTML = "<pre><span id='one'>      </span><img id='logo' height = 154 width = 126 src='logo.jpg'><span id='two'>      </span></pre></span>"
+document.getElementById("intro").innerHTML = "<pre><span id='one'>      </span><img id='logo' height = 176 width = 134 src='logo.jpg'><span id='two'>      </span></pre></span>"
 var i = 0;
 var j = 0;
 var txt = ['      ', '     d', '    ed', '   ted', '  ited', ' nited', 'United'];
@@ -92,6 +92,7 @@ typeWriter2();
 							clearInterval(cycle);
 							document.getElementById("intro").style.display = "none";
 							document.getElementById("body").style.display = "block";
+							document.title = "The geekdom's capital";
 						}
 						id.style.opacity = opac;
 					}

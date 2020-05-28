@@ -14,7 +14,7 @@
 width: 100%;
 height: 100%;
 text-align: center;
-font-size: 1450%;
+font-size: 1250%;
 letter-spacing: 2px;
 }
 body {
@@ -46,8 +46,8 @@ li.nav a {
 }
 
 li a:hover {
-  background-color: tomato;
-  color: #987;
+  background-color: #ffffe5;
+  color: #555555;
 }
 
 .active {
