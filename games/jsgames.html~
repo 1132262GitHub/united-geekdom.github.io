@@ -7,6 +7,8 @@
 .button {
 border:none;
 padding: none;
+background-color: transparent;
+border: none;
 }
 
 .left {
@@ -42,7 +44,7 @@ This is my foray into the world of JavaScript games. Please enjoy (or try to.)
 <br>
 <hr color="red">
 <h3>The colour game</h3>
-<p>Press the button to start the game. Then keep pressing the button which shows the colour of the displayed text. Every correct click gets you one point.</p>
+<p>Press the button to start the game. Then keep pressing the button which shows the colour of the displayed text. Every correct option gets you one point, while every wrong option makes you lose a point.</p>
 <script src="colour.js"></script>
 <button onclick="game()">Start the game</button>
 <p style="float: right; background-color: white; color:black; border: 1px solid gray; padding: 3px; margin-right: 50%;" id="colourScore">0</p>

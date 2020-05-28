@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +7,9 @@
 <title>The geekdom's capital</title>
 </head>
 <body bgcolor="orange">
-
+<div id="intro">
+</div>
+<div id="body" style="display: none;">
 <ul class="nav">
   <li class="nav"><img src="logo.jpg" width=45 height=80></li> 
   <li class="nav"><a class="active">Home</a></li>
@@ -45,9 +48,59 @@ friends at <a class="body" href="https://randomsite.github.io">randomsite</a> cr
 <div style="background-image: url('https://htmlwriter.github.io/images/HTML%20Writer%20Logo.svg'); background-color: #ffffff"><p><a style="color: black;" href="https://htmlwriter.github.io">Visit this site</a></p></div>
 <div style="background-image: url('https://penfightersassociation.github.io/images/pen%20fight.jpg'); background-color: #0044AF"><p><a href="https://penfightersassociation.github.io">Visit this site</a></p></div>
 <div style="background-image: url('https://pencilpublishers.github.io/logo.jpg'); background-color: #ffffff"><p><a style="color: black;" href="https://pencilpublishers.github.io">Visit this site</a></p></div>
-<div style="background-image: url('https://keshuook.github.io/favicon.ico'); background-color: #e6e6e6"><p><a href="https://keshuook.github.io">Visit this site</a></p></div>
+<div style="background-image: url('https://keshuook.github.io/favicon.ico'); background-color: #e6e6e6"><p><a style="color: black;"  href="https://keshuook.github.io">Visit this site</a></p></div>
 <div style="background-image: url('https://fisik-yum.github.io/static/echo.png'); background-color: #000000"><p><a href="https://fisik-yum.github.io">Visit this site</a></p></div>
 <div style="background-image: url('https://sushantan.github.io/youtube%20profile%20pic.jpg'); background-color: #ffffff"><p><a style="color: black;" href="https://sushantan.github.io">Visit this site</a></p></div>
 </div>
+</div>
+<script type="text/javascript" >
+document.getElementById("intro").innerHTML = "<pre><span id='one'>      </span><img id='logo' height=590 width = 420 src='logo.jpg'><span id='two'>      </span></pre></span>"
+var i = 0;
+var j = 0;
+var txt = ['      ', '     d', '    ed', '   ted', '  ited', ' nited', 'United'];
+var txt2 = ['      ', 'e     ', 'ee    ', 'eek   ', 'eekd  ', 'eekdo ', 'eekdom'];
+var speed = 100;
+
+function typeWriter1() {
+  if (i < txt.length) {
+    document.getElementById("one").innerHTML = txt[i];
+    i++;
+    setTimeout(typeWriter1, speed);
+  }
+}
+function typeWriter2() {
+  if (j < txt2.length) {
+    document.getElementById("two").innerHTML = txt2[j];
+    j++;
+    setTimeout(typeWriter2, speed);
+  }
+}
+typeWriter1();
+typeWriter2();
+			function fadeOut(id,spd){
+				if(id.style.opacity == ""){
+					id.style.opacity = 1;
+				}
+				if(id.style.opacity > 0){
+					var opac = 1;
+					var cycle = setInterval(decreaseOpacity,spd);
+					function decreaseOpacity() {
+						opac -= 0.01;
+						if(opac <= 0){
+							id.style.opacity = 0;
+							opac = 0;
+							clearInterval(cycle);
+							document.getElementById("intro").style.display = "none";
+							document.getElementById("body").style.display = "block";
+						}
+						id.style.opacity = opac;
+					}
+				} else {
+					clearInterval(cycle);
+				}
+			}
+fadeOut(intro, 35)
+
+</script>
 </body>
 </html>

@@ -6,7 +6,7 @@
 </head>
 <body bgcolor="black" link="red">
 <font color="white">
-<a href="../">Home</a>
+<a href="../">Home</a> | <a href="../search.html">Search</a>
 <hr>
 <a href="../games">Games home</a> | <a href="reflexes.html">How sharp are your reflexes?</a> | United Geekdom Casino | <a href="jsgames.html">JavaScript Games</a>
 <hr>

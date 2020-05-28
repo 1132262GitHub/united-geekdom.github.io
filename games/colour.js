@@ -18,6 +18,8 @@ if (Math.floor(Math.random() * 2) == 0) {
 function no() {
 	document.getElementById("c").style.color = "red";
 	document.getElementById("c").innerHTML = "wrong";
+document.getElementById("colourScore").innerHTML = score;	
+		score--;
 	game()
 }
 function yes() {
