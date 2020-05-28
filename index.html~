@@ -9,7 +9,7 @@
 <body bgcolor="orange">
 <div id="intro">
 </div>
-<div id="body" style="display: none;">
+<div style="display: none;" id="body">
 <ul class="nav">
   <li class="nav"><img src="logo.jpg" width=45 height=80></li> 
   <li class="nav"><a class="active">Home</a></li>
@@ -54,7 +54,7 @@ friends at <a class="body" href="https://randomsite.github.io">randomsite</a> cr
 </div>
 </div>
 <script type="text/javascript" >
-document.getElementById("intro").innerHTML = "<pre><span id='one'>      </span><img id='logo' height=590 width = 420 src='logo.jpg'><span id='two'>      </span></pre></span>"
+document.getElementById("intro").innerHTML = "<pre><span id='one'>      </span><img id='logo' height=290 width = 210 src='logo.jpg'><span id='two'>      </span></pre></span>"
 var i = 0;
 var j = 0;
 var txt = ['      ', '     d', '    ed', '   ted', '  ited', ' nited', 'United'];
