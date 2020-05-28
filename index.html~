@@ -99,7 +99,7 @@ typeWriter2();
 					clearInterval(cycle);
 				}
 			}
-fadeOut(intro, 35)
+fadeOut(intro, 45)
 
 </script>
 </body>
