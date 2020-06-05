@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>CHARnimation</title>
+<link rel="icon" href="../header.jpg" />
 <link rel = "stylesheet" href = "style.css">
 <script src="twosec.js"></script>
 <script src="eightsec.js">
@@ -15,6 +17,7 @@ function hide(x) {
 </script>
 </head>
 <body bgcolor="tomato">
+<a href="../" title="home"><img src="../logo.jpg" alt="home"></a><a href="../search.html" title="search"><img src="../logo.jpg" alt="home"></a>
 <marquee>
 <h1>CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
 </marquee>
