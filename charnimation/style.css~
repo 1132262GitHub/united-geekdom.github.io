@@ -2,15 +2,13 @@ a {
 color: red;
 text-decoration: none;
 }
-a:hover {
+a:hover, a:visited:hover {
 color: purple;
 }
 a:visited {
 color: magenta;
 }
-a:visited:hover {
-color: purple;
-}
+
 div {
 	font-family: monospace;
 border: none;

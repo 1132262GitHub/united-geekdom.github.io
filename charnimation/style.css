@@ -1,11 +1,11 @@
-a {
+a[href] {
 color: red;
 text-decoration: none;
 }
-a:hover, a:visited:hover {
+a[href]:hover, a[href]:visited:hover {
 color: purple;
 }
-a:visited {
+a[href]:visited {
 color: magenta;
 }
 
