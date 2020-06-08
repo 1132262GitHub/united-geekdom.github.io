@@ -1,3 +1,14 @@
+a {
+color: red;
+text-decoration: none;
+}
+a:hover, a:visited:hover {
+color: purple;
+}
+a:visited {
+color: magenta;
+}
+
 div {
 	font-family: monospace;
 border: none;

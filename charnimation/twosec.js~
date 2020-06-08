@@ -54,13 +54,13 @@ function timedText2() {
 }
 
 function myTimeout5() {
-  document.getElementById("load").innerHTML = "-";
+  document.getElementById("load").innerHTML = " |";
 }
 function myTimeout6() {
   document.getElementById("load").innerHTML = " /";
 }  
 function myTimeout7() {
-  document.getElementById("load").innerHTML = " |";
+  document.getElementById("load").innerHTML = "-";
 }
 function myTimeout8() {
   document.getElementById("load").innerHTML = " \\";

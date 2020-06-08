@@ -17,7 +17,7 @@ function hide(x) {
 </script>
 </head>
 <body bgcolor="tomato">
-<a href="../" title="home"><img src="../logo.jpg" alt="home"></a><a href="../search.html" title="search"><img src="../logo.jpg" alt="home"></a>
+<a href="../" title="home"><img src="../logo.jpg" alt="home"></a><a style="float: right;" href="../search.html" title="search"><img src="../searchicon.png" alt="search"></a>
 <marquee>
 <h1>CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARnimation &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
 </marquee>
@@ -25,7 +25,9 @@ function hide(x) {
 CHARnimation is a project of mine to make animations from ASCII Characters. Starting out, these animations are basic, but I'm hoping to be able to make more elaborate ones using special characters.
 These animations are made with JavaScript. They may take some time to load.(Look, I <i>know</i> that they're terrible. ) If you want your sites reviews to plummet, you can embed these animations. 
 </div>
-
+<div style="text-align: center;" class="head">
+<nav><a href="short.html">Shorts</a></nav>
+</div>
 <div>
 <h3 class="head">Standard ASCII loading symbol</h3>
 <p id="load">Loading...</p>
